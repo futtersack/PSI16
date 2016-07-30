@@ -1,0 +1,19 @@
+%% File: cppfig.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cppfig}
+         [2002/08/07 v0.01 figure environment for cpp]
+\newlength{\figwidth} 
+\setlength{\figwidth}{\textwidth}
+\addtolength{\figwidth}{-4cc}
+\newenvironment{cppfig}[2][tbp]{
+        \begin{figure}[#1]
+        \ifthenelse{\lengthtest{#2 < \figwidth}}
+                {\noindent\hskip 4cc\hskip-0.5mm}
+                {\flushright}
+        \begin{minipage}{#2}
+        \centering
+        }
+        {\hfill\end{minipage}\end{figure}}
+\endinput
+%%
+%% End of file `cppfig.sty'.
