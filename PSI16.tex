@@ -16,7 +16,7 @@
 \usepackage{indentfirst}
 %\usepackage[superscript,biblabel]{cite}
 \usepackage{cite}
-\usepackage{caption}
+%\usepackage{caption}
 \captionsetup[table]{singlelinecheck=false}
 
 % \usepackage{w-sidecapt}
@@ -279,10 +279,10 @@ mimicking an incomming flux from the core.
 We only consider the SOL, all magnetic field lines ends at the divertor plates,
 where Bohm boundary conditions are applied on particle fluxes and currents:
 
-$$\Gamma_\parallel_\text{se}=\pm
+$$\Gamma_{\parallel\text{se}}=\pm
 N_\text{se}\exp(\Lambda-\Phi_\text{se})
  \qquad
- J_\parallel_\text{se} = \pm
+ J_{\parallel\text{se}} = \pm
  N_\text{se}(1-\exp(\Lambda-\Phi_\text{se}))
 $$ 
 
@@ -344,15 +344,15 @@ fields, with field lines perpendicular to the wall~\cite{Bohm49}.
 The flushed probe is then modeled by a local polarization of the target plates,
 via a modification of the parallel Bohm boundary conditions :
  
- $$\Gamma_\parallel_\text{p}=\pm
+ $$\Gamma_{\parallel\text{p}}=\pm
 N_\text{p}\exp(\Lambda-\Phi_\text{p}+\Phi_\text{wall})
  \qquad
- J_\parallel_\text{p} = \pm
+ J_{\parallel\text{p}} = \pm
  N_\text{p}(1-\exp(\Lambda-\Phi_\text{p}+\Phi_\text{wall}))
 $$ 
 
-$\Gamma_\parallel_\text{p}$, $N_\text{p}$,
-$\Phi_\text{p}$ and $J_\parallel_\text{p}$ are plasma quantities in front of the
+$\Gamma_{\parallel\text{p}}$, $N_\text{p}$,
+$\Phi_\text{p}$ and $J_{\parallel\text{p}}$ are plasma quantities in front of the
 probe but still at the sheath entrance. The wall polarization
 has a gaussian shape
 $\Phi_\text{wall}=V_p\text{~}\exp(-(X-X_p)^2/L_p^2)\text{~}\exp(-(Y-Y_p)^2/L_p^2)$
@@ -375,21 +375,28 @@ insulating, as we will mostly focus on density and flux perturbations.
 
 \section{Polarisation of the divertor probe}
 
-\subsection{\bf Macroscopic phenomology}
-
+As stated in previous works~\cite{Ghendrih03, Colin14, Futtersack16}, the
+Langmuir probe produce a polarization of the whole connected flux tube
 \begin{figure}
-%\begin{wrapfigure}{l}{68mm}
-%\sidecaption
-\includegraphics[width=68mm]{figures/perturbAmplLp.pdf}
-\caption{Slab geometry of the SOL. The flushed probe is located at the end of
-the box. The mobile probe can be situated either in the middle or at one forth
-of the domain.}
+\begin{minipage}{68mm}
+\includegraphics[width=\linewidth]{figures/3Dcurrent.pdf} \caption{3D view
+of $J_\parallel$ from the top, where the probe is located. The white/transparent
+color indicates zero current. The bottom plan shows the XY density map in strong
+SOL electrostatic turbulence.}
 \label{fig:2}
+\end{minipage}
+\hfill
+\begin{minipage}{68mm}\vspace{20pt}
+\includegraphics[width=\linewidth]{figures/perturbAmplLp.pdf}
+\caption{Conditionnal average of plasma fluctuations
+waveforms on the poloidal direction for intermittent bursts exceeding 2 times the standard
+deviation. Left axe is for $\tilde{N}$, $\tilde{\Phi}$ and $\Lambda\tilde{T}$,
+right axe is for $\tilde{V}_f$.}
+\label{fig:3}
+
+\end{minipage}
 \end{figure}
 
- LPs
-produce a polarization of the whole connected flux tube, drawing perpendicular fluxes and currents from the outside plasma. Let us now analyse the influence of
-two parameters: the probe size and the probe voltage.
 \begin{figure}
 \begin{minipage}{68mm}
 \includegraphics[width=\linewidth]{figures/poloidalProf.pdf} \caption{I-V
@@ -409,6 +416,9 @@ right axe is for $\tilde{V}_f$.}
 \hfill
 \end{minipage}
 \end{figure}
+ , drawing perpendicular fluxes and currents from the outside plasma. Let us now analyse the influence of
+two parameters: the probe size and the probe voltage.
+
 
 \subsection{\bf 1D model}
 
