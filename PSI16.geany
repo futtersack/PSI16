@@ -1,0 +1,50 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=PSI16
+base_path=/home/futtersack/workspace/PSI16
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=0
+FILE_NAME_0=32240;LaTeX;0;EISO-8859-1;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FPSI16%2FPSI16.tex;0;4
+FILE_NAME_1=5311;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FbilanPartProbe.py;0;4
+FILE_NAME_2=1131;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FradialProfileProbe.py;0;4
+FILE_NAME_3=3420;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FTokam%2FperturbNconn.py;0;4
+
+[VTE]
+last_dir=/root
+
+[build-menu]
+NF_03_LB=latex
+NF_03_CM=pdflatex %e
+NF_03_WD=
+NoneFT_00_LB=build
+NoneFT_00_CM=pdflatex PSI16.tex
+NoneFT_00_WD=
+filetypes=None;LaTeX;
+LaTeXFT_01_LB=LaTeX -> _PDF
+LaTeXFT_01_CM=pdflatex --file-line-error-style "%f"
+LaTeXFT_01_WD=

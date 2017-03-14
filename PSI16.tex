@@ -151,6 +151,7 @@ Hutchinson theory.
 %% \tableofcontents  % Produces the table of contents.
 
 \section{Introduction}
+
 Scrape-Off-Layer turbulence studies mostly relie on
 plasma fluctuations measurements by the means of Langmuir probes
 (LP)~\cite{Langmuir23,Langmuir29,
@@ -175,9 +176,9 @@ LP in ion saturation mode significantly disturbs the plasma. In fact, as
 in biasing experiments~\cite{Zweben07}, the polarization of the flux tube
 connected to the LP leads to the formation of a convective cell, which acts
 then as a transport barrier preventing the turbulent plasma to reach the probe
-tip. Here, one step further following this work is achieved by taking the
-electron temperature fluctuations $\tilde{T}_e$ into account and having
-a first look at the effect of the parallel dynamics on the perturbation.
+tip. Here, we look at the effect of the parallel dynamics on the perturbation, 
+and we study for the first time the impact on the turbulent plasma of the 
+immersion of an object into the SOL.
 
 Whilst the ion collection theory has been built up over a long history,
 current transport induced by a biased probe has been largely forsaken. 
@@ -195,6 +196,7 @@ measurements. Section 5
 
 \section{Synthetic probe modelling in the TOKAM3X fluid code}
 \label{2D}
+
 The TOKAM3X code has been developped in the framework of a long-term program
 dedicated to edge transport modelling. TOKAM3X solves the drift-reduced
 Braginskii conservative equations in an arbitrary 3D magnetic geometry (from
@@ -230,7 +232,6 @@ of the diamagnetic current which drives the interchange instability~\cite{Ghendr
 
 \vspace{2mm}
 Conservation equations of the model then read:
-
 \begin{gather}
   \partial_t N + \nabla \cdot \left(N\mathbf{u}_E \right) 
   -D\nabla_\perp^2 N  =  S - \nabla \cdot \left(N(\Gamma_\parallel
@@ -312,7 +313,8 @@ $1$  &$12\text{.} 10^{3}$  & $256$&$256$ &$
  For a typical
  hydrogen discharge, with a magnetic field of $B_0$= 3T, density around
  $10^{19}\text{m}^{-3}$ and an electronic temperature equals to 100 eV, the
- Larmor radius $\rho_L$= 0.3mm and the simulated plasma takes place in a narrow box of 87mm x 87mm x 8m.
+ Larmor radius $\rho_L$= 0.3mm and the simulated plasma takes place in 
+  a narrow box of 87mm x 87mm x 8m.
 \emph{\color{red}The rather high collisionnality $\eta_\parallel=$ and the
 length of field lines are then comparable to those of a small tokamak}
 
@@ -320,9 +322,9 @@ length of field lines are then comparable to those of a small tokamak}
 
 The layout of the problem is illustrated in Fig.~\ref{fig:1}. In a first part,
 a biased probe is inserted in the center of the top divertor plate at
- $Z_p=L_\parallel$. For the second part, the body of a swept probe is
+ $Z_\text{p}=L_\parallel$. For the second part, the body of a swept probe is
  plunged into the SOL plasma, either at one-half of one-fourth of the field
- lines, ie. $Z_p=L_\parallel/2$ or $Z_p=L_\parallel/4$.
+ lines, ie. $Z_\text{p}=L_\parallel/2$ or $Z_\text{p}=L_\parallel/4$.
  
  \begin{figure}
   \begin{minipage}[c]{0.50\textwidth}
@@ -355,10 +357,10 @@ $\Gamma_{\parallel\text{p}}$, $N_\text{p}$,
 $\Phi_\text{p}$ and $J_{\parallel\text{p}}$ are plasma quantities in front of the
 probe but still at the sheath entrance. The wall polarization
 has a gaussian shape
-$\Phi_\text{wall}=V_p\text{~}\exp(-(X-X_p)^2/L_p^2)\text{~}\exp(-(Y-Y_p)^2/L_p^2)$
-with $V_p$ the applied bias voltage, $(X_p, Y_p)$ the position and $L_p$ the
+$\Phi_\text{wall}=V_\text{p}\text{~}\exp(-(X-X_\text{p})^2/L_\text{p}^2)\text{~}\exp(-(Y-Y_\text{p})^2/L_\text{p}^2)$
+with $V_\text{p}$ the applied bias voltage, $(X_\text{p}, Y_\text{p})$ the position and $L_\text{p}$ the
 size of the probe. In the limit of strong negative polarization\footnote{with a
-typical SOL electronic temperature $T_0\approx$ 100 eV, $V_p=-3$ corresponds to
+typical SOL electronic temperature $T_0\approx$ 100 eV, $V_\text{p}=-3$ corresponds to
 approximately -300V}, the Boltzmann exponential term tend toward zero locally:
 only ions reach the probe and the current drawn by the probe is
 equal to the ion flux, ie. the probe is run on ion saturation mode.
@@ -376,10 +378,25 @@ insulating, as we will mostly focus on density and flux perturbations.
 \section{Polarisation of the divertor probe}
 
 As stated in previous works~\cite{Ghendrih03, Colin14, Futtersack16}, the
-Langmuir probe produce a polarization of the whole connected flux tube
+Langmuir probe in ion saturation mode impacts the surrounding plasma and could give
+measurements leading to an underestimation of the plasma quantities. 
+An illustration of the perturbation is given in Fig.~\ref{fig:2} :
+ the parallel current drawn by the probe is maximum at the front of the probe, decreasing 
+along and spreading across the magnetic field lines. Following 
+the Ohms law Eq.~\eqref{eq_Ohms_law}, this current has to come from a parallel gradient 
+of potential and thus requires that the plasma in front of the probe stays at a different 
+potential than the one of the unperturbed plasma. The perpendicular
+electric field which rises then gives birth to an ExB vortex around all the flux tube,
+preventing the turbulent plasma to reach the probe tip. To study
+this phenomon, we define $\Psi=\Lambda-\Phi_\text{p}$, the difference of potential between 
+the front of the probe and the unperturbed plasma, which characterizes the magnitude of the 
+perturbation and thus the strengh of the vortex. We also look at $l_\parallel$, the parallel 
+extention of the perturbation.
+
+
 \begin{figure}
 \begin{minipage}{68mm}
-\includegraphics[width=\linewidth]{figures/3Dcurrent.pdf} \caption{3D view
+\includegraphics[width=\linewidth]{figures/3Dcurrent2.pdf} \caption{3D view
 of $J_\parallel$ from the top, where the probe is located. The white/transparent
 color indicates zero current. The bottom plan shows the XY density map in strong
 SOL electrostatic turbulence.}
@@ -388,80 +405,302 @@ SOL electrostatic turbulence.}
 \hfill
 \begin{minipage}{68mm}\vspace{20pt}
 \includegraphics[width=\linewidth]{figures/perturbAmplLp.pdf}
-\caption{Conditionnal average of plasma fluctuations
-waveforms on the poloidal direction for intermittent bursts exceeding 2 times the standard
-deviation. Left axe is for $\tilde{N}$, $\tilde{\Phi}$ and $\Lambda\tilde{T}$,
-right axe is for $\tilde{V}_f$.}
+\caption{Amplitude of the perturbation in front of the probe versus the ratio of the parallel 
+to the probe lengths. Circles are for parallel length of 6x10$^3$, squares and triangles
+are respectively for twice and fourth times the first $L_\parallel$. Colors show probes of the same sizes.}
 \label{fig:3}
 
 \end{minipage}
 \end{figure}
+
+In a semi-infinite plasma, the perturbation would extend along the field lines 
+until the current transported across the magnetic field compensates the current drawn 
+by the probe $J_{\parallel\text{p}}=l_\parallel \nabla_\perp\cdot \mathbf{J}_\perp $. Considering the turbulent perpendicular transport of 
+current around the probe as an hyper-diffusif process $\mathbf J_\perp=-\nu_\text{turb}\nabla \nabla^2\Phi$ of perpendicular scale $L_\text{p}$,
+ and combining this with Eq.~\eqref{eq_Ohms_law},
+the parallel scale $l_\parallel$ of the perturbation can be estimated as :
+\begin{equation}
+\label{ExtensionPerturbation}
+  l_{\parallel}=\sqrt{\frac{\eta^{-1}}{\nu_\text{turb}}}L_\text{p}^2
+\end{equation}
+
+Then, the integration of the current divergence equation along the parallel direction from the probe to $l_\parallel$
+where the perturbation vanish and no parallel current exists let us express the amplitude of the perturbation
+as :
+\begin{equation}
+\label{AmplitudePerturbation}
+  \Psi\approx\sqrt{\frac{\eta}{\nu_\text{turb}}}L_\text{p}^2=
+  l_\parallel \eta 
+\end{equation}
+
+Fig.~\ref{fig:3} shows the amplitude of the perturbation normalized to 
+the floating potential as a function of the ratio 
+$L_\parallel/L_\text{p}$. There is two immediate observations : the first 
+one is that $\Psi$ does depend on the parallel length of the domain 
+$L_\parallel$, in contradiction with the simple semi-infinite plasma 
+assumption, where the perturbation should vanish at $l_\parallel \ll 
+L_\parallel$. The second observation, which accords well to 
+Eq.~\eqref{AmplitudePerturbation}, is that at a fixed $L_\parallel$, a larger 
+probe will produce a larger perturbation. 
+
+On another hand, we 
+could have expected that increasing the parallel length would lead to weaken 
+the perturbation as the perpendicular current would have been collected on a longer 
+area. This is correct for the small probe $L_\text{p}$=4, but in 
+contradiction with 
+the results of the simulations for probes of size $L_\text{p}$=8 and 
+$L_\text{p}$=12. This difference can however be explained when reconsidering 
+the semi-infinite plasma hypothesys : as a matter of a fact, the SOL 
+plasma takes its place between the two sides of the limiter/divertor 
+separated in our simulations by a parallel length of 6x10$^3$ - 
+2x10$^4$ (hence around 5m-20m, in a small tokamak with 
+$T_e^\text{(SOL)}\approx$100eV). With a parallel resistivity $\eta$ of 
+10$^{\text{ -5}}$, the parallel scale of the perturbation is of the same order 
+or even exceed the parallel length of the system : 
+$l_\parallel/L_\parallel\in$ [1,10]. The perturbaton reaches thus 
+easily the opposite wall, drawing current directly from it. In this 
+case, the probe IV characteristics should be interpreted as those of 
+double probes. 
+
+Supposing now that the total perpendicular current divergence is low enough 
+(with a very short parallel length for example) to consider 
+$\nabla_\parallel\cdot \mathbf j =0$ giving a parallel current constant 
+all along the field line and equal to the saturation current drawn by 
+the probe. Inserting in Eq.~\eqref{eq_Ohms_law} then gives :
+\begin{equation}
+\label{eqConstantCurrent2}
+  j_\parallel=-\eta^{-1}\nabla_\parallel\Phi=j_\text{sat}\qquad\text{and thus}
+  \qquad \Phi_\text{opp}-\Phi_\text{p}=L_\parallel\eta j_\text{sat}
+\end{equation}
+
+Moreover, as no curent comes from the perpenducular direction, the 
+current drawn by the probe has to come entirely from the opposite wall. 
+Expressing $\Phi_\text{opp}$ with the sheath theory and 
+substituting the saturation currents, we can see that when the 
+perpendicular current divergence is weak :
+\begin{equation}
+\label{eqConstantCurrent3}
+  \Phi_\text{p}=\Lambda-\ln\left(
+  1+\frac{N_\text{p}}{N_\text{opp}}\right)-L_\parallel\eta N_\text{p}
+\end{equation}
+
+In this situation, the perturbation in front of the probe grows when 
+$L_\parallel$ increases. For a given probe size, two behaviours are 
+then in competition depending on the total divergence 
+of the perpendicular current, and there is a maximum of the amplitude 
+of the perturbation at a specific $L_\parallel$, which can be seen on 
+Fig.~\ref{fig:3} for the $L_\text{p}$=8 probe size.
+
+Another way to look at $\Psi$ is considering it as an adaptaion to the 
+probe voltage : indeed, rewriting the definition of $\Psi$ as 
+$\Phi_\text{p}=\Lambda-\Psi=\Lambda-\alpha V_\text{p}$ let us define 
+$\alpha=\Psi/V_\text{p}$, an accomodation factor of the plasma potential to the probe 
+voltage, positive and even between zero and one. Then in sweeping 
+operations to measure IV characteristics, if the plasma potential adapts to the probe voltage,
+the elecron current drawn by the probe should also be affected :
+\begin{equation}
+J_{\parallel 
+\text{p}}^e=N_\text{p}\exp\left(\Lambda-\Phi_\text{p}+V_\text{p}\right)=
+N_\text{p}\exp\left(V_\text{p}(1-\alpha)\right)
+\end{equation}
+
+As a consequence, we see that if $\alpha$ differs significantly from 
+zero, the measured slope on the IV characteristic, $T_e$,  
+will always be overestimated, by the factor $(1-\alpha)^{-1}$. 
+
+Let us look now at the effect of $\eta$ on the perturbation. When the 
+probe is run in ion saturation mode, we are mostly interested by the 
+density perturbation just in front of it. 
+Eqs.~\eqref{ExtensionPerturbation}, \eqref{AmplitudePerturbation} and 
+\eqref{eqConstantCurrent3} tell that increasing the resistivity should 
+lead to a stronger perturbation, with a lower parallel extension. Also, 
+when $l_\parallel$ is small enough, we can expect the transport 
+barrier created by the vortex to act only on a part of the field line, and 
+consequently that it exists a plasma refilling of the probe channel by 
+parallel transport from the other side of the flux tube. On the 
+contrary, if $l_\parallel$ is long in comparison to $L_\parallel$, the 
+perturbation should be constant along the field line, reaching the 
+opposite wall, and the vortex would prevent the plasma to enter the 
+probe channel from either sides.
+Less obvious on the mean plasma density, this effect is clear on the 
+fluctuations levels, as showed on Fig.~\ref{fig:4}, from which we can 
+extract two main trends :
 
 \begin{figure}
-\begin{minipage}{68mm}
-\includegraphics[width=\linewidth]{figures/poloidalProf.pdf} \caption{I-V
-characteristic of the probe. Blue dashed line is the expected slope for the mean electron temperature present at
-this radial location. Red thin line is the linear regression of the
-characteristic between $V_p=-2$ and $V_p=1$.}
-\label{fig:2}
+\begin{minipage}[c]{68mm}
+\includegraphics[width=68mm]{figures/perturbAmplEta.pdf}
 \end{minipage}
-\hfill
-\begin{minipage}{68mm}
-\includegraphics[width=\linewidth]{figures/perturbAmplEta.pdf}
-\caption{Conditionnal average of plasma fluctuations
-waveforms on the poloidal direction for intermittent bursts exceeding 2 times the standard
-deviation. Left axe is for $\tilde{N}$, $\tilde{\Phi}$ and $\Lambda\tilde{T}$,
-right axe is for $\tilde{V}_f$.}
-\label{fig:3}
-\hfill
+\begin{minipage}[c]{\textwidth-68mm}
+\caption{Standard deviations of density fluctuations in front of the 
+probe (filled symbols) in comparison with the reference case (empty 
+symbols) as a function of the 
+potential difference between the walls. In blue on the left (small 
+electric field), are the "conductive" cases with a low $\eta$. On the 
+right (high electric field) are the "resistive" cases. Circles, squares 
+and triangle are respectively for the base parallel length, times two 
+and four.}
+\label{fig:4}
 \end{minipage}
 \end{figure}
- , drawing perpendicular fluxes and currents from the outside plasma. Let us now analyse the influence of
-two parameters: the probe size and the probe voltage.
 
+1. Fluctuations are largely reduced in comparison to the unperturbed 
+case, when the parallel length $L_\parallel$ is small, which is less 
+evident when increasing the resistivity.
 
-\subsection{\bf 1D model}
+2. Increasing the resistivity leads to a small reduction of $\sigma_N$ 
+and $\sigma_\text{ref}$, but the principal effect is the increase of 
+the parallel electric field.
 
+In the case of ITER, where the plasma will be hot and highly 
+conductive, we can expect a strong connection of the perturbation 
+between the two sides of the divertor. The flushed mounted probes 
+should then act like double probes, the current being limited by the sheath of the 
+opposite wall.
 
-\section{Mach probes}
-The results presented in section~\ref{2D} have shown a strong perturbation of
-the plasma turbulence due to the probe in a 2D reduced geometry. However,
-this effect may be overestimated as with this reduction, we effectively model
-two synthetic probes, one in front of each other at both ends of the field lines. In this part
-we use the TOKAM3X code~\cite{Tamain15}, a 3D global edge
-turbulence code based on the fluid-drift approximation, to have a look on a more
-realistic 3D case where the probe is still located on the limiter, but this time on only one side of the
-field line.
+\section{Reciprocating probe body and synthetic Mach measurements}
+\begin{figure}
+\begin{minipage}{200mm}
+
+\begin{minipage}{54mm}
+
+\center\textbf{a)}\end{minipage}
+\begin{minipage}{54mm}
+\center\textbf{b)}\end{minipage}
+\begin{minipage}{52mm}
+\center\textbf{c)}\end{minipage}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/densityMapProbe.pdf}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/radialProfileProbe.pdf}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/pdfProbe.pdf}
+\end{minipage}
+\begin{minipage}{200mm}
+\caption{\textbf{a)}~Probe shadow in the poloidal plane. Map of the 
+mean plasma density in comparison with the unperturbed 
+case around the probe. The probe, in white, is situated at the middle of the field 
+lines.
+\textbf{b)}~Radial profile of the mean density, standard deviations and 
+standard deviation normalized to $\left<N\right>$, rapported to the 
+unperturbed reference case. The black line denotes the contact point 
+with the probe.
+\textbf{c)}~PDFs of density for the reference case, just in front of 
+the probe and few Larmor radius inside the probe shadow.}
+ \label{fig:5}
+  \end{minipage}
+\end{figure}
+
+In this section, we study for the first time the impact of a probe 
+body inserted in the SOL plasma with a full 3D turbulent code, at the 
+scale of the Larmor radius. The geometry and the dimensions of the 
+problem are sketched on Fig.~\ref{fig:1} of the model section. After a 
+description of the main impacts of the probe on the SOL plasma 
+characteristics, we will reconstruct and study a synthetic Mach probe 
+measurement following the Hutchinson theory~\cite{Hutchinson02}.
+
 \subsection{\bf Perturbation the SOL plasma due to the probe body}
+
+The first principal effect of the insertion into the SOL of a solid 
+object is the creation of its own secondary pre-sheaths, the object's 
+shadow~\cite{secondary presheath}. Indeed, as the length of the field 
+lines is divided by two and the loss surface for the plasma doubles, it will 
+exist, on the both side of the probe, two areas of reduced density, 
+where the radial decay length is strongly shortened. 
+This effect is clearly recovered in the simulations, as we can see on 
+the Figs.~\ref{fig:5} : the shadow of the probe extends along all the 
+field lines, the plasma density is depleted in the probe shadow, 
+from 20\% to more than 40\%, and this just few $\rho_L$ after the first contact between the 
+plasma and the probe. 
+The plasma potential, which responds to the plasma pressure accordingly 
+to the Boltzmann relation, is also deeply impacted : the potential 
+difference which emerges between the unperturbed plasma and the 
+probe shadow gives birth to perpendicular electric fields, radials along 
+ the borders of the probe and poloidal in front of it. As in the 
+ flushed probe cases, this perpendicular electric field creates 
+strong transport barriers all around the shadow, accentuating the 
+plasma depletion.
+
+These two effects, namely the dump of plasma density due to presence 
+of the probe and the transport barriers, both impact the plasma 
+fluctuations inside the probe shadow, either by "reducing" the 
+frequency of bursts and also by increasing their relative importance in 
+comparison to $\left<N\right>$. In front of the probe, where the 
+poloidal transport barrier emerges, the PDF shows that there is much 
+more middle or mixed events, corresponding to avalanches stopped and 
+redirected. More inside the probe shadow, we clearly observe a 
+modification of the kurtosis of the PDF indicating less frequent but 
+more important events. They correspond to the avalanches which pass 
+through the barrier, with a density relatively much more important than 
+the plasma in the probe shadow.
+
+In this simple case, without parallel or poloidal mean flows, it should 
+be 
+
+
 
 \subsection{\bf Synthetic Mach measurements}
 
-\subsubsection{Measurements without parallel flow}
-
- 
- \begin{figure}
- \begin{minipage}{60mm}
-\includegraphics[width=55mm,trim = 0mm 0mm 0mm
-0mm,clip]{figures/densityMapProbe.pdf}~\textbf{a)}
+\begin{figure}
+\begin{minipage}[c]{68mm}
+\includegraphics[width=68mm]{figures/hutchMachRadialProf.pdf}
 \end{minipage}
- \begin{minipage}{68mm}\hfill
-\includegraphics[width=68mm]{figures/radialProfileProbe.pdf}~\textbf{b)}
-\includegraphics[width=68mm]{figures/pdfProbe.pdf}~\textbf{c)}
+\begin{minipage}[c]{\textwidth-68mm}
+\caption{Standard deviations of density fluctuations in front of the 
+probe (filled symbols) in comparison with the reference case (empty 
+symbols) as a function of the 
+potential difference between the walls. In blue on the left (small 
+electric field), are the "conductive" cases with a low $\eta$. On the 
+right (high electric field) are the "resistive" cases. Circles, squares 
+and triangle are respectively for the base parallel length, times two 
+and four.}
 \label{fig:4}
 \end{minipage}
-\caption{\textbf{a)~} Mean density at the location of the probe. Red circles
-stand for the isothermal case~\cite{Colin14} and black diamonds
-for non-isothermal 2D cases. The blue square is a 3D case with probes at
-each end of the field lines. Blue triangles are the 3D, one probe cases.
-\textbf{b)}~Ratio of difference between the parallel current drawn by the probe
-$J_{\parallel p}$ and the current coming from the opposite wall
-$J_{\parallel o}$ as a function
-of the parallel length and for different probe sizes.}
 \end{figure}
 
-\subsubsection{Measurements in the presence of parallel flow}
+ \begin{figure}
+\begin{minipage}{200mm}
 
- 
+\begin{minipage}{54mm}
+
+\center\textbf{a)}\end{minipage}
+\begin{minipage}{54mm}
+\center\textbf{b)}\end{minipage}
+\begin{minipage}{52mm}
+\center\textbf{c)}\end{minipage}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/densityMapProbe.pdf}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/radialProfileProbe.pdf}
+\end{minipage}
+ \begin{minipage}{52mm}
+\includegraphics[width=52mm,trim = 0mm 0mm 0mm
+0mm,clip]{figures/pdfProbe.pdf}
+\end{minipage}
+\begin{minipage}{200mm}
+\caption{\textbf{a)}~Probe shadow in the poloidal plane. Map of the 
+mean plasma density in comparison with the unperturbed 
+case around the probe. The probe, in white, is situated at the middle of the field 
+lines.
+\textbf{b)}~Radial profile of the mean density, standard deviations and 
+standard deviation normalized to $\left<N\right>$, rapported to the 
+unperturbed reference case. The black line denotes the contact point 
+with the probe.
+\textbf{c)}~PDFs of density for the reference case, just in front of 
+the probe and few Larmor radius inside the probe shadow.}
+ \label{fig:5}
+  \end{minipage}
+\end{figure}
+
 \section{Discussion}
 
 \section{Conclusion}
