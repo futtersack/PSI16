@@ -1,0 +1,22 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  C for Unix
+Release version: 3.71 (18 mar 2013)
+
+Error: cannot open CS file: 88591lat.csf
+The top-level auxiliary file: PSI16.aux
+The style file: cpp.bst
+Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
+Reallocated global_strs (elt_size=20001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=8) to 10 items from 0.
+Database file #1: biblio.bib
+Warning--empty <publisher> in @inproceedings{Chen65}
+Warning--empty <publisher> in @inproceedings{Futtersack16}
+
+Here's how much of BibTeX's memory you used:
+ Cites:                24 out of 750
+ Fields:              541 out of 5000
+ Hash table:        35108 out of 35307
+ Strings:             783 out of 35307
+ Free string pool:   9280 out of 65000
+ Wizard functions:   2691 out of 3000
+(There were 2 warnings)

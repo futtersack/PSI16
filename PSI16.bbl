@@ -1,0 +1,183 @@
+\providecommand{\WileyBibTextsc}{}
+\let\textsc\WileyBibTextsc
+\providecommand{\othercit}{}
+\providecommand{\jr}[1]{#1}
+\providecommand{\etal}{~et~al.}
+
+
+\begin{thebibliography}{[10]}
+
+\bibitem{Langmuir23}% article
+ \textsc{I.~Langmuir}\iffalse The pressure effect and other phenomena in
+  gaseous discharges\fi,
+ \jr{Journal of the Franklin Institute} \textbf{196}(6), 751 -- 762 (1923).
+
+
+\bibitem{Langmuir29}% article
+ \textsc{I.~Langmuir}\iffalse The interaction of electron and positive ion
+  space charges in cathode sheaths\fi,
+ \jr{Phys. Rev.} \textbf{33}(Jun), 954--989 (1929).
+
+
+\bibitem{Tonks29}% article
+ \textsc{L.~Tonks} and  \textsc{I.~Langmuir}\iffalse A general theory of the
+  plasma of an arc\fi,
+ \jr{Phys. Rev.} \textbf{34}(Sep), 876--922 (1929).
+
+
+\othercit
+\bibitem{Bohm49}% misc
+ \textsc{D.~Bohm},
+Minimum ionic kinetic energy for a stable sheath, 1949.
+
+
+\othercit
+\bibitem{Chen65}% inproceedings
+ \textsc{F.\,F. Chen},  \textsc{J.\,D. Evans},  and  \textsc{W.~Zawalski},
+Electric probes,
+ in: In Plasma Diagnostic Techniques, edited by Huddlestone, RH and Leornard,
+  SL,  (1965).
+
+
+\bibitem{Matthews94}% article
+ \textsc{G.\,F. Matthews}\iffalse Tokamak plasma diagnosis by electrical
+  probes\fi,
+ \jr{Plasma Phys. Control. Fusion} \textbf{36}(10), 1595 (1994).
+
+
+\othercit
+\bibitem{Stangeby00}% book
+ \textsc{P.\,C. Stangeby},
+The plasma boundary of magnetic fusion devices, Plasma physics series (Taylor
+  \& Francis, New York, 2000).
+
+
+\othercit
+\bibitem{Hutchinson02}% book
+ \textsc{I.\,H. Hutchinson},
+Principles of Plasma Diagnostics, second edition (Cambridge University Press,
+  2002),
+Cambridge Books Online.
+
+
+\bibitem{Stangeby84}% article
+ \textsc{P.~Stangeby}\iffalse The disturbing effect of probes inserted into
+  edge plasmas of fusion devices\fi,
+ \jr{Journal of Nuclear Materials} \textbf{121}, 36 -- 40 (1984).
+
+
+\bibitem{Hutchinson87}% article
+ \textsc{I.\,H. Hutchinson}\iffalse A fluid theory of ion collection by probes
+  in strong magnetic fields with plasma flow\fi,
+ \jr{Physics of Fluids} \textbf{30}(12), 3777--3781 (1987).
+
+
+\bibitem{Matthews89}% article
+ \textsc{G.\,F. Matthews} and  \textsc{P.\,C. Strangeby}\iffalse Measurements
+  of cross-field plasma transport to an object in a tokamak edge plasma\fi,
+ \jr{Journal of Physics D: Applied Physics} \textbf{22}(5), 644 (1989).
+
+
+\bibitem{Hutchinson91}% article
+ \textsc{I.\,H. Hutchinson}\iffalse The connected presheath: One-dimensional
+  models of neighboring objects in magnetized plasmas\fi,
+ \jr{Phys. Fluids B} \textbf{3}(3), 847--856 (1991).
+
+
+\bibitem{Rozhansky99}% article
+ \textsc{V.\,A. Rozhansky},  \textsc{A.\,A. Ushakov},  and  \textsc{V.\,S.
+  P.}\iffalse Electric fields and currents in front of a biased electrode
+  (flush mounted probe) and the i - v characteristics of the electrode for
+  various mechanisms of transverse conductivity\fi,
+ \jr{Nucl. Fusion} \textbf{39}(5), 613 (1999).
+
+
+\bibitem{HutchinsonPRL}% article
+ \textsc{I.\,H. Hutchinson}\iffalse Ion collection by oblique surfaces of an
+  object in a transversely flowing strongly magnetized plasma\fi,
+ \jr{Phys. Rev. Lett.} \textbf{101}(Jul), 035004 (2008).
+
+
+\bibitem{Stangeby95}% article
+ \textsc{P.\,C. Stangeby}\iffalse A problem in the interpretation of tokamak
+  langmuir probes when a fast electron component is present\fi,
+ \jr{Plasma Physics and Controlled Fusion} \textbf{37}(9), 1031 (1995).
+
+
+\bibitem{Hutchinson10}% article
+ \textsc{I.\,H. Hutchinson} and  \textsc{L.~Patacchini}\iffalse Flowing plasmas
+  and absorbing objects: analytic and numerical solutions culminating 80 years
+  of ion-collection theory\fi,
+ \jr{Plasma Physics and Controlled Fusion} \textbf{52}(12), 124005 (2010).
+
+
+\bibitem{Pitts90}% article
+ \textsc{R.\,A. Pitts} and  \textsc{P.\,C. Stangeby}\iffalse Experimental tests
+  of langmuir probe theory for strong magnetic fields\fi,
+ \jr{Plasma Physics and Controlled Fusion} \textbf{32}(13), 1237 (1990).
+
+
+\bibitem{Ghendrih03}% article
+ \textsc{P.~Ghendrih},  \textsc{Y.~Sarazin},  \textsc{G.~Attuel},
+  \textsc{S.~Benkadda},  \textsc{P.~Beyer},  \textsc{G.~Falchetto},
+  \textsc{C.~Figarella},  \textsc{X.~Garbet},  \textsc{V.~Grandgirard},  and
+  \textsc{M.~Ottaviani}\iffalse Theoretical analysis of the influence of
+  external biasing on long range turbulent transport in the scrape-off
+  layer\fi,
+ \jr{Nucl. Fusion} \textbf{43}(10), 1013 (2003).
+
+
+\bibitem{Zweben09}% article
+ \textsc{S.\,J. Zweben},  \textsc{R.\,J. Maqueda},  \textsc{A.\,L. Roquemore},
+  \textsc{C.\,E. Bush},  \textsc{R.~Kaita},  \textsc{R.\,J. Marsala},
+  \textsc{Y.~Raitses},  \textsc{R.\,H. Cohen},  and  \textsc{D.\,D.
+  Ryutov}\iffalse Local scrape-off layer control using biased electrodes in
+  nstx\fi,
+ \jr{Plasma Physics and Controlled Fusion} \textbf{51}(10), 105012 (2009).
+
+
+\bibitem{Colin14}% article
+ \textsc{C.~Colin},  \textsc{P.~Tamain},  \textsc{P.~Ghendrih},
+  \textsc{F.~Schwander},  and  \textsc{E.~Serre}\iffalse Impact of a langmuir
+  probe on turbulence measurements in the scrape-off-layer of tokamaks\fi,
+ \jr{Contrib. Plasma Phys.} \textbf{54}(4-6), 543--548 (2014).
+
+
+\othercit
+\bibitem{Futtersack16}% inproceedings
+ \textsc{R.~Futtersack},  \textsc{C.~Colin},  \textsc{P.~Tamain},
+  \textsc{G.~Ciraolo},  \textsc{P.~Ghendrih},  \textsc{Y.~Marandet},
+  \textsc{F.~Schwander},  and  \textsc{E.~SERRE},
+{First principle modeling of interplay between Langmuir probe and edge plasma
+  turbulence},
+ in: {15th Plasma edge theory in Fusion devices conference},  (Nara, Japan,
+  September 2015).
+
+
+\bibitem{Zweben07}% article
+ \textsc{S.\,J. Zweben},  \textsc{J.\,A. Boedo},  \textsc{O.~Grulke},
+  \textsc{C.~Hidalgo},  \textsc{B.~LaBombard},  \textsc{R.\,J. Maqueda},
+  \textsc{P.~Scarin},  and  \textsc{J.\,L. Terry}\iffalse Edge turbulence
+  measurements in toroidal fusion devices\fi,
+ \jr{Plasma Phys. Control. Fusion} \textbf{49}(7), S1 (2007).
+
+
+\bibitem{Tamain16}% article
+ \textsc{P.~Tamain},  \textsc{H.~Bufferand},  \textsc{G.~Ciraolo},
+  \textsc{C.~Colin},  \textsc{D.~Galassi},  \textsc{P.~Ghendrih},
+  \textsc{F.~Schwander},  and  \textsc{E.~Serre}\iffalse The \{TOKAM3X\} code
+  for edge turbulence fluid simulations of tokamak plasmas in versatile
+  magnetic geometries\fi,
+ \jr{Journal of Computational Physics} pp.\,-- (2016).
+
+
+\bibitem{Tamain15}% article
+ \textsc{P.~Tamain},  \textsc{P.~Ghendrih},  \textsc{H.~Bufferand},
+  \textsc{G.~Ciraolo},  \textsc{C.~Colin},  \textsc{N.~Fedorczak},
+  \textsc{N.~Nace},  \textsc{F.~Schwander},  and  \textsc{E.~Serre}\iffalse
+  Multi-scale self-organisation of edge plasma turbulent transport in 3d global
+  simulations\fi,
+ \jr{Plasma Phys. Control. Fusion} \textbf{57}(5), 054014 (2015).
+
+
+\end{thebibliography}

@@ -1,0 +1,511 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.17)  12 MAR 2017 10:00
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**PSI16.tex
+(./PSI16.tex
+LaTeX2e <2016/03/31> patch level 2
+Babel <3.9r> and hyphenation patterns for 7 language(s) loaded.
+(./w-art.cls
+Document Class: w-art 2010/01/13 v0.95a document class for WILEY-VCH Verlag Gmb
+H \& Co. KGaA, Weinheim -MWL-
+\aux@tw=\skip41
+\TitleWidth=\skip42
+\vch@skip=\skip43
+\BeforeMainTextSkip=\skip44
+\MathIndentation=\skip45
+(/root/workspace/latex/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+) (./w-cpp.clo
+File: w-cpp.clo 2010/01/13 v0.9c style option for Contributions to Plasma Physi
+cs
+\linespacing=\dimen103
+\normalparindent=\dimen104
+)
+(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen105
+))
+(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks15
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/root/workspace/latex/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+(/root/workspace/latex/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip51
+)
+(/root/workspace/latex/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@lastpage=\count95
+\normaltopskip=\skip52
+\numa=\count96
+\numb=\count97
+\abstractbox=\box28
+\c@part=\count98
+\c@section=\count99
+\c@subsection=\count100
+\c@subsubsection=\count101
+\c@paragraph=\count102
+\c@subparagraph=\count103
+\linespacing=\dimen116
+\normalparindent=\dimen117
+\c@figure=\count104
+\c@table=\count105
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\captionwidth=\skip55
+\vch@capl=\skip56
+
+(/root/workspace/latex/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(/root/workspace/latex/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 221.
+\captionlinewidth=\dimen125
+\realcaptionwidth=\dimen126
+)
+Can't find sidecap.sty -- will use normal caption
+\bibindent=\dimen127
+\c@tempc=\count106
+\c@tempcc=\count107
+\figcapgap=\dimen128
+\tabcapgap=\dimen129
+\figgap=\dimen130
+) (/root/workspace/latex/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (./w-thm.sty
+(/root/workspace/latex/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks25
+)
+\c@theorem=\count108
+\c@axiom=\count109
+)
+(/root/workspace/latex/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/root/workspace/latex/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+\c@criterion=\count110
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/root/workspace/latex/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/root/workspace/latex/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/root/workspace/latex/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/root/workspace/latex/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen133
+\lightrulewidth=\dimen134
+\cmidrulewidth=\dimen135
+\belowrulesep=\dimen136
+\belowbottomsep=\dimen137
+\aboverulesep=\dimen138
+\abovetopsep=\dimen139
+\cmidrulesep=\dimen140
+\cmidrulekern=\dimen141
+\defaultaddspace=\dimen142
+\@cmidla=\count111
+\@cmidlb=\count112
+\@aboverulesep=\dimen143
+\@belowrulesep=\dimen144
+\@thisruleclass=\count113
+\@lastruleclass=\count114
+\@thisrulewidth=\dimen145
+)
+(./wrapfig.sty
+\wrapoverhang=\dimen146
+\WF@size=\dimen147
+\c@WF@wrappedlines=\count115
+\WF@box=\box29
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+) (./PSI16.aux)
+\openout1 = `PSI16.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 46.
+
+(/root/workspace/latex/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/root/workspace/latex/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen148
+\scratchbox=\box30
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen149
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks28
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Can't find sidecap.sty -- will use normal caption
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 136.
+
+(/root/workspace/latex/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+
+Overfull \vbox (3.23456pt too high) has occurred while \output is active []
+
+
+[1{/root/workspace/latex/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/geometry.pdf, id=12, 845.0471pt x 597.51233pt>
+File: figures/geometry.pdf Graphic file (type pdf)
+
+<use figures/geometry.pdf>
+Package pdftex.def Info: figures/geometry.pdf used on input line 331.
+(pdftex.def)             Requested size: 224.70181pt x 158.87793pt.
+ [2] [3 <./figures/geometry.pdf>]
+<figures/3Dcurrent2.pdf, id=33, 313.17pt x 290.08376pt>
+File: figures/3Dcurrent2.pdf Graphic file (type pdf)
+
+<use figures/3Dcurrent2.pdf>
+Package pdftex.def Info: figures/3Dcurrent2.pdf used on input line 399.
+(pdftex.def)             Requested size: 193.47873pt x 179.22153pt.
+
+<figures/perturbAmplLp.pdf, id=34, 325.215pt x 260.17201pt>
+File: figures/perturbAmplLp.pdf Graphic file (type pdf)
+
+<use figures/perturbAmplLp.pdf>
+Package pdftex.def Info: figures/perturbAmplLp.pdf used on input line 407.
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+ [4 <./figures/3Dcurrent2.pdf> <./figures/perturbAmplLp.pdf
+
+pdfTeX warning: pdflatex (file ./figures/perturbAmplLp.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <figures/perturbAmplEta.pdf, id=95, 325.215pt x 260.17201pt>
+File: figures/perturbAmplEta.pdf Graphic file (type pdf)
+
+<use figures/perturbAmplEta.pdf>
+Package pdftex.def Info: figures/perturbAmplEta.pdf used on input line 531.
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 530--544
+[]$[]$ $[]$ 
+ []
+
+[5 <./figures/perturbAmplEta.pdf>]
+<figures/densityMapProbe.pdf, id=150, 325.215pt x 260.17201pt>
+File: figures/densityMapProbe.pdf Graphic file (type pdf)
+
+<use figures/densityMapProbe.pdf>
+Package pdftex.def Info: figures/densityMapProbe.pdf used on input line 574.
+(pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
+
+<figures/radialProfileProbe.pdf, id=152, 325.215pt x 260.17201pt>
+File: figures/radialProfileProbe.pdf Graphic file (type pdf)
+
+<use figures/radialProfileProbe.pdf>
+Package pdftex.def Info: figures/radialProfileProbe.pdf used on input line 578.
+
+(pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
+
+<figures/pdfProbe.pdf, id=154, 325.215pt x 260.17201pt>
+File: figures/pdfProbe.pdf Graphic file (type pdf)
+
+<use figures/pdfProbe.pdf>
+Package pdftex.def Info: figures/pdfProbe.pdf used on input line 582.
+(pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
+
+Overfull \hbox (119.65149pt too wide) in paragraph at lines 562--597
+[]$[]$
+ []
+
+
+Overfull \hbox (119.65149pt too wide) in paragraph at lines 562--597
+[]$ 
+ []
+
+
+LaTeX Warning: Citation `secondary presheath' on page 6 undefined on input line
+ 611.
+
+<figures/hutchMachRadialProf.pdf, id=156, 325.215pt x 260.17201pt>
+File: figures/hutchMachRadialProf.pdf Graphic file (type pdf)
+
+<use figures/hutchMachRadialProf.pdf>
+Package pdftex.def Info: figures/hutchMachRadialProf.pdf used on input line 646
+.
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 645--659
+[]$[]$ $[]$ 
+ []
+
+Missing character: There is no Ž in font ptmr7t!
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+ [6 <./figures/densityMapProbe.pdf> <./figures/radialProfileProbe.pdf> <./figur
+es/pdfProbe.pdf>] (./PSI16.bbl [7 <./figures/hutchMachRadialProf.pdf>])
+
+Class w-art Warning: copyrightyear 2008 in copyrightinfo differs from currentye
+ar 2016 in Year of issueinfo on input line 732.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 20.
+See the caption package documentation for explanation.
+
+[8] (./PSI16.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4014 strings out of 494875
+ 57219 string characters out of 6178853
+ 124929 words of memory out of 5000000
+ 7229 multiletter control sequences out of 15000+600000
+ 28754 words of font info for 59 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 43i,12n,40p,723b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/root/workspace/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}</root/workspac
+e/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></root/workspace/l
+atex/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></root/workspace/late
+x/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></root/workspace/latex/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></root/workspace/latex/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></root/workspace/latex/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></root/workspace/latex/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></root/workspace/latex/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></root/workspace/latex/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></root/workspace/latex/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9
+.pfb></root/workspace/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></ro
+ot/workspace/latex/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></root/workspace
+/latex/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></root/workspace/latex/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PSI16.pdf (8 pages, 581054 bytes).
+PDF statistics:
+ 399 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+
