@@ -28,11 +28,13 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=32240;LaTeX;0;EISO-8859-1;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FPSI16%2FPSI16.tex;0;4
-FILE_NAME_1=5311;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FbilanPartProbe.py;0;4
-FILE_NAME_2=1131;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FradialProfileProbe.py;0;4
-FILE_NAME_3=3420;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FTokam%2FperturbNconn.py;0;4
+current_page=2
+FILE_NAME_0=6268;LaTeX;0;EISO-8859-1;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FPSI16%2FPSI16.tex;1;4
+FILE_NAME_1=3589;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FbargraphBilanPart.py;0;4
+FILE_NAME_2=4642;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FalphaHutch.py;0;4
+FILE_NAME_3=2581;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FpdfProbe.py;0;4
+FILE_NAME_4=2609;Python;0;EUTF-8;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FT3X%2FhutchMachRadialProf.py;0;4
+FILE_NAME_5=52314;LaTeX;0;EISO-8859-1;1;1;0;%2Fhome%2Ffuttersack%2Fworkspace%2FPSI16%2Fbiblio.bib;0;4
 
 [VTE]
 last_dir=/root

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.17)  12 MAR 2017 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.17)  22 MAR 2017 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,7 +15,7 @@ H \& Co. KGaA, Weinheim -MWL-
 \vch@skip=\skip43
 \BeforeMainTextSkip=\skip44
 \MathIndentation=\skip45
-(/root/workspace/latex/texmf-dist/tex/latex/base/fleqn.clo
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 Applying: [2015/01/01] Make \[ robust on input line 50.
@@ -24,30 +24,31 @@ Already applied: [0000/00/00] Make \[ robust on input line 62.
 Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
-) (./w-cpp.clo
+)
+(./w-cpp.clo
 File: w-cpp.clo 2010/01/13 v0.9c style option for Contributions to Plasma Physi
 cs
 \linespacing=\dimen103
 \normalparindent=\dimen104
 )
-(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen105
 ))
-(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen106
 )
-(/root/workspace/latex/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count79
@@ -88,26 +89,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(/root/workspace/latex/texmf-dist/tex/latex/graphics/color.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/home/futtersack/workspace/latex/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
-))
-(/root/workspace/latex/texmf-dist/tex/latex/tools/calc.sty
+)) (/home/futtersack/workspace/latex/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count92
 \calc@Bcount=\count93
@@ -120,7 +119,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count94
 \calc@Cskip=\skip51
 )
-(/root/workspace/latex/texmf-dist/tex/latex/tools/xspace.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@lastpage=\count95
@@ -143,7 +142,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \captionwidth=\skip55
 \vch@capl=\skip56
 
-(/root/workspace/latex/texmf-dist/tex/latex/caption/caption2.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/caption/caption2.sty
 Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
 
 
@@ -156,11 +155,11 @@ Package caption2 Warning: ****************************************************
 (caption2)                use the regular `caption' package v3.x instead.
 (caption2)                ****************************************************
 
-(/root/workspace/latex/texmf-dist/tex/latex/caption/caption3.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics/keyval.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
@@ -184,10 +183,11 @@ Can't find sidecap.sty -- will use normal caption
 \figcapgap=\dimen128
 \tabcapgap=\dimen129
 \figgap=\dimen130
-) (/root/workspace/latex/texmf-dist/tex/latex/psnfss/times.sty
+) (/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (./w-thm.sty
-(/root/workspace/latex/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(./w-thm.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -202,74 +202,159 @@ Package: amsthm 2015/03/04 v2.20.2
 \c@theorem=\count108
 \c@axiom=\count109
 )
-(/root/workspace/latex/texmf-dist/tex/latex/tools/indentfirst.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/root/workspace/latex/texmf-dist/tex/latex/cite/cite.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 \c@criterion=\count110
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+(/home/futtersack/workspace/latex/texmf-dist/tex/generic/oberdiek/hobsub-hyperr
+ef.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/root/workspace/latex/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/root/workspace/latex/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen131
-\Gin@req@width=\dimen132
-)
-(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/root/workspace/latex/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/generic/oberdiek/hobsub-generi
+c.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/root/workspace/latex/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen131
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count114
+ (/home/futtersack/workspace/latex/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen132
+\Fld@menulength=\count115
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring ON on input line 6360.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/rerunfilecheck.
+sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/graphics-cfg/graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/epstopdf-base.s
+ty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -278,234 +363,302 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/root/workspace/latex/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/latexconfig/epstopdf-sys
+.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/root/workspace/latex/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen133
-\lightrulewidth=\dimen134
-\cmidrulewidth=\dimen135
-\belowrulesep=\dimen136
-\belowbottomsep=\dimen137
-\aboverulesep=\dimen138
-\abovetopsep=\dimen139
-\cmidrulesep=\dimen140
-\cmidrulekern=\dimen141
-\defaultaddspace=\dimen142
-\@cmidla=\count111
-\@cmidlb=\count112
-\@aboverulesep=\dimen143
-\@belowrulesep=\dimen144
-\@thisruleclass=\count113
-\@lastruleclass=\count114
-\@thisrulewidth=\dimen145
+\heavyrulewidth=\dimen137
+\lightrulewidth=\dimen138
+\cmidrulewidth=\dimen139
+\belowrulesep=\dimen140
+\belowbottomsep=\dimen141
+\aboverulesep=\dimen142
+\abovetopsep=\dimen143
+\cmidrulesep=\dimen144
+\cmidrulekern=\dimen145
+\defaultaddspace=\dimen146
+\@cmidla=\count121
+\@cmidlb=\count122
+\@aboverulesep=\dimen147
+\@belowrulesep=\dimen148
+\@thisruleclass=\count123
+\@lastruleclass=\count124
+\@thisrulewidth=\dimen149
 )
 (./wrapfig.sty
-\wrapoverhang=\dimen146
-\WF@size=\dimen147
-\c@WF@wrappedlines=\count115
+\wrapoverhang=\dimen150
+\WF@size=\dimen151
+\c@WF@wrappedlines=\count125
 \WF@box=\box29
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
-) (./PSI16.aux)
+) (./PSI16.aux
+
+LaTeX Warning: Label `fig:4' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+)
 \openout1 = `PSI16.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 46.
-
-(/root/workspace/latex/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 54.
+ (/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/root/workspace/latex/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/home/futtersack/workspace/latex/texmf-dist/tex/context/base/mkii/supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen148
+\scratchcounter=\count126
+\scratchdimen=\dimen152
 \scratchbox=\box30
-\nofMPsegments=\count117
-\nofMParguments=\count118
+\nofMPsegments=\count127
+\nofMParguments=\count128
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen149
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen153
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
 \everyMPtoPDFconversion=\toks28
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 Can't find sidecap.sty -- will use normal caption
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 136.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring ON on input line 54.
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/root/workspace/latex/texmf-dist/tex/latex/psnfss/ot1phv.fd
+(/home/futtersack/workspace/latex/texmf-dist/tex/generic/oberdiek/gettitlestrin
+g.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count132
+)
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
+ (./PSI16.out) (./PSI16.out)
+\@outlinefile=\write3
+\openout3 = `PSI16.out'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 145.
+
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-
-Overfull \vbox (3.23456pt too high) has occurred while \output is active []
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
 
 
-[1{/root/workspace/latex/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Warning: Citation `Hutchinson88' on page 1 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Hutchinson88' on page 1 undefined on input line 198.
+
+
+LaTeX Warning: Citation `Chung12' on page 1 undefined on input line 198.
+
+[1{/home/futtersack/workspace/latex/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
+p}
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/geometry.pdf, id=12, 845.0471pt x 597.51233pt>
+[2] <figures/geometry.pdf, id=119, 845.0471pt x 597.51233pt>
 File: figures/geometry.pdf Graphic file (type pdf)
 
 <use figures/geometry.pdf>
-Package pdftex.def Info: figures/geometry.pdf used on input line 331.
+Package pdftex.def Info: figures/geometry.pdf used on input line 342.
 (pdftex.def)             Requested size: 224.70181pt x 158.87793pt.
- [2] [3 <./figures/geometry.pdf>]
-<figures/3Dcurrent2.pdf, id=33, 313.17pt x 290.08376pt>
-File: figures/3Dcurrent2.pdf Graphic file (type pdf)
+ [3 <./figures/geometry.pdf>]
+<figures/3Dcurrent.pdf, id=141, 313.17pt x 290.08376pt>
+File: figures/3Dcurrent.pdf Graphic file (type pdf)
 
-<use figures/3Dcurrent2.pdf>
-Package pdftex.def Info: figures/3Dcurrent2.pdf used on input line 399.
+<use figures/3Dcurrent.pdf>
+Package pdftex.def Info: figures/3Dcurrent.pdf used on input line 410.
 (pdftex.def)             Requested size: 193.47873pt x 179.22153pt.
 
-<figures/perturbAmplLp.pdf, id=34, 325.215pt x 260.17201pt>
+<figures/perturbAmplLp.pdf, id=142, 325.215pt x 260.17201pt>
 File: figures/perturbAmplLp.pdf Graphic file (type pdf)
 
 <use figures/perturbAmplLp.pdf>
-Package pdftex.def Info: figures/perturbAmplLp.pdf used on input line 407.
+Package pdftex.def Info: figures/perturbAmplLp.pdf used on input line 418.
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
- [4 <./figures/3Dcurrent2.pdf> <./figures/perturbAmplLp.pdf
-
-pdfTeX warning: pdflatex (file ./figures/perturbAmplLp.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
->] <figures/perturbAmplEta.pdf, id=95, 325.215pt x 260.17201pt>
+ [4 <./figures/3Dcurrent.pdf> <./figures/perturbAmplLp.pdf>] <figures/perturbAm
+plEta.pdf, id=217, 325.215pt x 260.17201pt>
 File: figures/perturbAmplEta.pdf Graphic file (type pdf)
 
 <use figures/perturbAmplEta.pdf>
-Package pdftex.def Info: figures/perturbAmplEta.pdf used on input line 531.
+Package pdftex.def Info: figures/perturbAmplEta.pdf used on input line 524.
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 530--544
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 523--537
 []$[]$ $[]$ 
  []
 
 [5 <./figures/perturbAmplEta.pdf>]
-<figures/densityMapProbe.pdf, id=150, 325.215pt x 260.17201pt>
+<figures/densityMapProbe.pdf, id=283, 325.215pt x 260.17201pt>
 File: figures/densityMapProbe.pdf Graphic file (type pdf)
 
 <use figures/densityMapProbe.pdf>
-Package pdftex.def Info: figures/densityMapProbe.pdf used on input line 574.
+Package pdftex.def Info: figures/densityMapProbe.pdf used on input line 595.
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-<figures/radialProfileProbe.pdf, id=152, 325.215pt x 260.17201pt>
+<figures/radialProfileProbe.pdf, id=285, 325.215pt x 260.17201pt>
 File: figures/radialProfileProbe.pdf Graphic file (type pdf)
 
 <use figures/radialProfileProbe.pdf>
-Package pdftex.def Info: figures/radialProfileProbe.pdf used on input line 578.
+Package pdftex.def Info: figures/radialProfileProbe.pdf used on input line 599.
 
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-<figures/pdfProbe.pdf, id=154, 325.215pt x 260.17201pt>
+<figures/pdfProbe.pdf, id=287, 325.215pt x 260.17201pt>
 File: figures/pdfProbe.pdf Graphic file (type pdf)
 
 <use figures/pdfProbe.pdf>
-Package pdftex.def Info: figures/pdfProbe.pdf used on input line 582.
+Package pdftex.def Info: figures/pdfProbe.pdf used on input line 603.
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-Overfull \hbox (119.65149pt too wide) in paragraph at lines 562--597
+Overfull \hbox (119.65149pt too wide) in paragraph at lines 583--618
 []$[]$
  []
 
 
-Overfull \hbox (119.65149pt too wide) in paragraph at lines 562--597
-[]$ 
- []
-
-
 LaTeX Warning: Citation `secondary presheath' on page 6 undefined on input line
- 611.
+ 623.
 
-<figures/hutchMachRadialProf.pdf, id=156, 325.215pt x 260.17201pt>
+[6 <./figures/densityMapProbe.pdf> <./figures/radialProfileProbe.pdf> <./figure
+s/pdfProbe.pdf>]
+
+LaTeX Warning: Citation `Hutchinson88' on page 7 undefined on input line 666.
+
+<figures/hutchMachRadialProf.pdf, id=442, 325.215pt x 260.17201pt>
 File: figures/hutchMachRadialProf.pdf Graphic file (type pdf)
 
 <use figures/hutchMachRadialProf.pdf>
-Package pdftex.def Info: figures/hutchMachRadialProf.pdf used on input line 646
+Package pdftex.def Info: figures/hutchMachRadialProf.pdf used on input line 737
 .
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 645--659
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 736--750
 []$[]$ $[]$ 
  []
 
+<figures/PartBalance_middle.pdf, id=443, 325.215pt x 260.17201pt>
+File: figures/PartBalance_middle.pdf Graphic file (type pdf)
+
+<use figures/PartBalance_middle.pdf>
+Package pdftex.def Info: figures/PartBalance_middle.pdf used on input line 754.
+
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+
+<figures/PartBalance_bottom.pdf, id=444, 325.215pt x 260.17201pt>
+File: figures/PartBalance_bottom.pdf Graphic file (type pdf)
+
+<use figures/PartBalance_bottom.pdf>
+Package pdftex.def Info: figures/PartBalance_bottom.pdf used on input line 762.
+
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 Missing character: There is no Ž in font ptmr7t!
+ [7] (./PSI16.bbl [8 <./figures/hutchMachRadialProf.pdf> <./figures/PartBalance
+_middle.pdf
 
-Underfull \vbox (badness 1406) has occurred while \output is active []
+pdfTeX warning: pdflatex (file ./figures/PartBalance_middle.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures/PartBalance_bottom.pdf
 
- [6 <./figures/densityMapProbe.pdf> <./figures/radialProfileProbe.pdf> <./figur
-es/pdfProbe.pdf>] (./PSI16.bbl [7 <./figures/hutchMachRadialProf.pdf>])
+pdfTeX warning: pdflatex (file ./figures/PartBalance_bottom.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>])
 
 Class w-art Warning: copyrightyear 2008 in copyrightinfo differs from currentye
-ar 2016 in Year of issueinfo on input line 732.
+ar 2016 in Year of issueinfo on input line 830.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 20.
 See the caption package documentation for explanation.
 
-[8] (./PSI16.aux)
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 830.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 830.
+ (./PSI16.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 830.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 830.
+Package rerunfilecheck Info: File `PSI16.out' has not changed.
+(rerunfilecheck)             Checksum: 5CDD4E668CBB5EDABBD12FC10F618622;768.
+
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 830.
  ) 
 Here is how much of TeX's memory you used:
- 4014 strings out of 494875
- 57219 string characters out of 6178853
- 124929 words of memory out of 5000000
- 7229 multiletter control sequences out of 15000+600000
+ 7649 strings out of 494875
+ 113544 string characters out of 6178853
+ 208126 words of memory out of 5000000
+ 10763 multiletter control sequences out of 15000+600000
  28754 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,12n,40p,723b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/root/workspace/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}</root/workspac
-e/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></root/workspace/l
-atex/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></root/workspace/late
-x/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></root/workspace/latex/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></root/workspace/latex/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></root/workspace/latex/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></root/workspace/latex/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></root/workspace/latex/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></root/workspace/latex/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr7.pfb></root/workspace/latex/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy6.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></root/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9
-.pfb></root/workspace/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></ro
-ot/workspace/latex/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></root/workspace
-/latex/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></root/workspace/latex/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PSI16.pdf (8 pages, 581054 bytes).
+ 43i,12n,40p,733b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/home/futtersack/workspace/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}</ho
+me/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></home/futtersack/workspace/latex/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/futtersack/workspace/latex/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/futtersack/workspace/lat
+ex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/futtersack/workspa
+ce/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/futtersack/w
+orkspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/futter
+sack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></hom
+e/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on PSI16.pdf (9 pages, 647273 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

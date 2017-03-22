@@ -72,16 +72,22 @@ Cambridge Books Online.
  \jr{Physics of Fluids} \textbf{30}(12), 3777--3781 (1987).
 
 
-\bibitem{Matthews89}% article
- \textsc{G.\,F. Matthews} and  \textsc{P.\,C. Strangeby}\iffalse Measurements
-  of cross-field plasma transport to an object in a tokamak edge plasma\fi,
- \jr{Journal of Physics D: Applied Physics} \textbf{22}(5), 644 (1989).
+\bibitem{Hutchinson88}% article
+ \textsc{I.\,H. Hutchinson}\iffalse Ion collection by probes in strong magnetic
+  fields with plasma flow\fi,
+ \jr{Phys. Rev. A} \textbf{37}(Jun), 4358--4366 (1988).
 
 
 \bibitem{Hutchinson91}% article
  \textsc{I.\,H. Hutchinson}\iffalse The connected presheath: One-dimensional
   models of neighboring objects in magnetized plasmas\fi,
  \jr{Phys. Fluids B} \textbf{3}(3), 847--856 (1991).
+
+
+\bibitem{Matthews89}% article
+ \textsc{G.\,F. Matthews} and  \textsc{P.\,C. Strangeby}\iffalse Measurements
+  of cross-field plasma transport to an object in a tokamak edge plasma\fi,
+ \jr{Journal of Physics D: Applied Physics} \textbf{22}(5), 644 (1989).
 
 
 \bibitem{Rozhansky99}% article
@@ -143,23 +149,17 @@ Cambridge Books Online.
  \jr{Contrib. Plasma Phys.} \textbf{54}(4-6), 543--548 (2014).
 
 
-\othercit
-\bibitem{Futtersack16}% inproceedings
+\bibitem{Futtersack16}% article
  \textsc{R.~Futtersack},  \textsc{C.~Colin},  \textsc{P.~Tamain},
   \textsc{G.~Ciraolo},  \textsc{P.~Ghendrih},  \textsc{Y.~Marandet},
-  \textsc{F.~Schwander},  and  \textsc{E.~SERRE},
-{First principle modeling of interplay between Langmuir probe and edge plasma
-  turbulence},
- in: {15th Plasma edge theory in Fusion devices conference},  (Nara, Japan,
-  September 2015).
+  \textsc{F.~Schwander},  and  \textsc{E.~Serre}\iffalse First principle
+  modelling of interplay between langmuir probes and plasma turbulence\fi,
+ \jr{Contributions to Plasma Physics} \textbf{56}(6-8), 575--580 (2016).
 
 
-\bibitem{Zweben07}% article
- \textsc{S.\,J. Zweben},  \textsc{J.\,A. Boedo},  \textsc{O.~Grulke},
-  \textsc{C.~Hidalgo},  \textsc{B.~LaBombard},  \textsc{R.\,J. Maqueda},
-  \textsc{P.~Scarin},  and  \textsc{J.\,L. Terry}\iffalse Edge turbulence
-  measurements in toroidal fusion devices\fi,
- \jr{Plasma Phys. Control. Fusion} \textbf{49}(7), S1 (2007).
+\bibitem{Chung12}% article
+ \textsc{K.\,S. Chung}\iffalse Mach probes\fi,
+ \jr{Plasma Sources Science and Technology} \textbf{21}(6), 063001 (2012).
 
 
 \bibitem{Tamain16}% article
@@ -169,15 +169,6 @@ Cambridge Books Online.
   for edge turbulence fluid simulations of tokamak plasmas in versatile
   magnetic geometries\fi,
  \jr{Journal of Computational Physics} pp.\,-- (2016).
-
-
-\bibitem{Tamain15}% article
- \textsc{P.~Tamain},  \textsc{P.~Ghendrih},  \textsc{H.~Bufferand},
-  \textsc{G.~Ciraolo},  \textsc{C.~Colin},  \textsc{N.~Fedorczak},
-  \textsc{N.~Nace},  \textsc{F.~Schwander},  and  \textsc{E.~Serre}\iffalse
-  Multi-scale self-organisation of edge plasma turbulent transport in 3d global
-  simulations\fi,
- \jr{Plasma Phys. Control. Fusion} \textbf{57}(5), 054014 (2015).
 
 
 \end{thebibliography}

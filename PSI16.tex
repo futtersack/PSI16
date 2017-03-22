@@ -36,6 +36,14 @@
 %% \usepackage{ngerman}% or
 %% \usepackage[english,ngerman]{babel}
 %% \usepackage[english,french]{babel}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+
+\makeatletter
+\renewcommand*{\eqref}[1]{%
+  \hyperref[{#1}]{\textup{\tagform@{\ref*{#1}}}}%
+}
+\makeatother
+
 \usepackage[]{graphicx}
 \usepackage[]{epstopdf}
 \usepackage[]{booktabs}
@@ -163,7 +171,8 @@ the bases of the \emph{quasineutral} plasma-sheath theory~\cite{Langmuir29,
 Tonks29}. Some decades later, Bohm describes the effect of magnetic
 field on electrical probes and suggests his famous Bohm
 criterion~\cite{Bohm49} a large body of litterature:
-describing ion collection physics~\cite{Stangeby84, Hutchinson87,Matthews89,Hutchinson91,Rozhansky99,HutchinsonPRL}, kinetic
+describing ion collection physics~\cite{Stangeby84,
+Hutchinson87,Hutchinson88,Hutchinson91,Matthews89,Rozhansky99,HutchinsonPRL}, kinetic
 effects~\cite{Stangeby95, Hutchinson10} of electrons and perturbations due to
 polarization~\cite{Pitts90,Ghendrih03,Zweben09,Colin14,Futtersack16}.
 
@@ -173,7 +182,7 @@ caused by the probe on transport properties. Previous studies ,
 modelling this probe-plasma interaction by biasing the target plates in the 2D
 interchange code TOKAM2D, showed that the presence of a
 LP in ion saturation mode significantly disturbs the plasma. In fact, as
-in biasing experiments~\cite{Zweben07}, the polarization of the flux tube
+in biasing experiments~\cite{Zweben09}, the polarization of the flux tube
 connected to the LP leads to the formation of a convective cell, which acts
 then as a transport barrier preventing the turbulent plasma to reach the probe
 tip. Here, we look at the effect of the parallel dynamics on the perturbation, 
@@ -185,6 +194,8 @@ current transport induced by a biased probe has been largely forsaken.
 Yet, some experimental evidences published by Matthews, Pitts and
 Stangeby~\cite{Matthews89,Pitts90} show that when a probe is
 polarized negatively with respect to the wall of the device,
+
+MP~\cite{Stangeby84, Hutchinson87,Hutchinson88,Matthews89,Hutchinson91,Chung12}
 
 This paper is organized as follows. In section 2 we present the
 TOKAM3X code~\cite{Tamain16} and the modelling of the
@@ -396,7 +407,7 @@ extention of the perturbation.
 
 \begin{figure}
 \begin{minipage}{68mm}
-\includegraphics[width=\linewidth]{figures/3Dcurrent2.pdf} \caption{3D view
+\includegraphics[width=\linewidth]{figures/3Dcurrent.pdf} \caption{3D view
 of $J_\parallel$ from the top, where the probe is located. The white/transparent
 color indicates zero current. The bottom plan shows the XY density map in strong
 SOL electrostatic turbulence.}
@@ -480,8 +491,8 @@ substituting the saturation currents, we can see that when the
 perpendicular current divergence is weak :
 \begin{equation}
 \label{eqConstantCurrent3}
-  \Phi_\text{p}=\Lambda-\ln\left(
-  1+\frac{N_\text{p}}{N_\text{opp}}\right)-L_\parallel\eta N_\text{p}
+  \Psi=\ln\left(
+  1+\frac{N_\text{p}}{N_\text{opp}}\right)+L_\parallel\eta N_\text{p}
 \end{equation}
 
 In this situation, the perturbation in front of the probe grows when 
@@ -507,6 +518,23 @@ N_\text{p}\exp\left(V_\text{p}(1-\alpha)\right)
 As a consequence, we see that if $\alpha$ differs significantly from 
 zero, the measured slope on the IV characteristic, $T_e$,  
 will always be overestimated, by the factor $(1-\alpha)^{-1}$. 
+\vspace{2mm}
+\begin{figure}
+\begin{minipage}[c]{68mm}
+\includegraphics[width=68mm]{figures/perturbAmplEta.pdf}
+\end{minipage}
+\begin{minipage}[c]{\textwidth-68mm}
+\caption{Standard deviations of density fluctuations in front of the 
+probe (filled symbols) in comparison with the reference case (empty 
+symbols) as a function of the 
+potential difference between the walls. In blue on the left (small 
+electric field), are the "conductive" cases with a low $\eta$. On the 
+right (high electric field) are the "resistive" cases. Circles, squares 
+and triangle are respectively for the base parallel length, times two 
+and four.}
+\label{fig:4}
+\end{minipage}
+\end{figure}
 
 Let us look now at the effect of $\eta$ on the perturbation. When the 
 probe is run in ion saturation mode, we are mostly interested by the 
@@ -526,30 +554,14 @@ Less obvious on the mean plasma density, this effect is clear on the
 fluctuations levels, as showed on Fig.~\ref{fig:4}, from which we can 
 extract two main trends :
 
-\begin{figure}
-\begin{minipage}[c]{68mm}
-\includegraphics[width=68mm]{figures/perturbAmplEta.pdf}
-\end{minipage}
-\begin{minipage}[c]{\textwidth-68mm}
-\caption{Standard deviations of density fluctuations in front of the 
-probe (filled symbols) in comparison with the reference case (empty 
-symbols) as a function of the 
-potential difference between the walls. In blue on the left (small 
-electric field), are the "conductive" cases with a low $\eta$. On the 
-right (high electric field) are the "resistive" cases. Circles, squares 
-and triangle are respectively for the base parallel length, times two 
-and four.}
-\label{fig:4}
-\end{minipage}
-\end{figure}
-
-1. Fluctuations are largely reduced in comparison to the unperturbed 
+\begin{enumerate}
+\item Fluctuations are largely reduced in comparison to the unperturbed 
 case, when the parallel length $L_\parallel$ is small, which is less 
 evident when increasing the resistivity.
-
-2. Increasing the resistivity leads to a small reduction of $\sigma_N$ 
+\item  Increasing the resistivity leads to a small reduction of $\sigma_N$ 
 and $\sigma_\text{ref}$, but the principal effect is the increase of 
 the parallel electric field.
+\end{enumerate}
 
 In the case of ITER, where the plasma will be hot and highly 
 conductive, we can expect a strong connection of the perturbation 
@@ -558,6 +570,15 @@ should then act like double probes, the current being limited by the sheath of t
 opposite wall.
 
 \section{Reciprocating probe body and synthetic Mach measurements}
+
+
+In this section, we study for the first time the impact of a probe 
+body inserted in the SOL plasma with a full 3D turbulent code, at the 
+scale of the Larmor radius. The geometry and the dimensions of the 
+problem are sketched on Fig.~\ref{fig:1} of the model section. After a 
+description of the main impacts of the probe on the SOL plasma 
+characteristics, we will reconstruct and study a synthetic Mach probe 
+measurement following the Hutchinson theory~\cite{Hutchinson02}.
 \begin{figure}
 \begin{minipage}{200mm}
 
@@ -581,7 +602,7 @@ opposite wall.
 \includegraphics[width=52mm,trim = 0mm 0mm 0mm
 0mm,clip]{figures/pdfProbe.pdf}
 \end{minipage}
-\begin{minipage}{200mm}
+\begin{minipage}{\linewidth}
 \caption{\textbf{a)}~Probe shadow in the poloidal plane. Map of the 
 mean plasma density in comparison with the unperturbed 
 case around the probe. The probe, in white, is situated at the middle of the field 
@@ -595,15 +616,6 @@ the probe and few Larmor radius inside the probe shadow.}
  \label{fig:5}
   \end{minipage}
 \end{figure}
-
-In this section, we study for the first time the impact of a probe 
-body inserted in the SOL plasma with a full 3D turbulent code, at the 
-scale of the Larmor radius. The geometry and the dimensions of the 
-problem are sketched on Fig.~\ref{fig:1} of the model section. After a 
-description of the main impacts of the probe on the SOL plasma 
-characteristics, we will reconstruct and study a synthetic Mach probe 
-measurement following the Hutchinson theory~\cite{Hutchinson02}.
-
 \subsection{\bf Perturbation the SOL plasma due to the probe body}
 
 The first principal effect of the insertion into the SOL of a solid 
@@ -642,9 +654,83 @@ the plasma in the probe shadow.
 In this simple case, without parallel or poloidal mean flows, it should 
 be 
 
-
-
 \subsection{\bf Synthetic Mach measurements}
+Measurements of plasma flow velocity are of prime importance in 
+tokamaks and so far, Mach probes, or so called "Janus" probes, are the 
+principal diagostics used in this objective. The principle of these 
+probes is to measure the ion fluxes parallel to the magnetic field on 
+both sides of the probe, the ratio of the 
+fluxes giving then the Mach number of the flow. The theory, a 
+one-dimentional model first developped 
+by Stangeby\cite{Stangeby84} and refined by 
+Hutchinson\cite{Hutchinson87,Hutchinson88,Hutchinson91}, is based on 
+the following equations :
+\begin{gather}
+\nabla_\parallel\Gamma=-\nabla_\perp\cdot\left(N\mathbf 
+V_\perp\right)
+\\
+\nabla_\parallel\left(\Gamma^2/N\right)+2\nabla_\parallel N= 
+-\nabla_\perp\cdot\left(\Gamma\mathbf 
+V_\perp\right)+\eta_H\nabla_\perp^2\Gamma/N
+\end{gather}
+
+with the symbols defined according to 
+\eqref{eq_particle_balance}-\eqref{eq_charge_balance}, $\mathbf V_\perp$ 
+being the normalized perpendicular velocity and $\eta_H$, the shear 
+viscosity introduced by Hutchinson, the term differencing his model 
+to the one of Stangeby. 
+
+The essence of these one-dimentional approximation is to consider the 
+perpendicular divergence of fluxes as sources of matter and momentum :
+\begin{gather}
+S_N=-\nabla_\perp\cdot\left(N\mathbf V_\perp\right)
+\\
+S_\Gamma=-\nabla_\perp\cdot\left(\Gamma\mathbf 
+V_\perp\right)+\eta_H\nabla_\perp^2\Gamma/N
+\end{gather}
+
+For the particle source, Stangeby use either $S_N=\text{cste.}$ or 
+$S_N\propto N$ while Hutchinson prefers to use a source deriving from a 
+diffusive particle flux $S_N=D_\perp\left(N_\infty-N\right)/a^2$, with a 
+unperturbed plasma density $N_\infty$ and $a$ the characteric perpendicular 
+length of the probe. 
+About the momentum source, that Hutchinson resumes 
+as~\cite{Hutchinson02}:
+\begin{gather}
+S_\Gamma=\frac{D_\perp}{a^2c_s}\left(M_\infty-M\right)\left(N_\infty-N\left(1-
+\alpha\right)\right)\qquad \text{with}\qquad\alpha=\eta_H/N D_\perp
+\\
+S_\Gamma=\frac{D_\perp}{a^2c_s}\left(M_\infty-M\right)\left(N_\infty\left(1+\alpha\right)-N
+\right)\qquad \text{with}\qquad\alpha=\eta_H/ N_\infty D_\perp
+\end{gather}
+
+the inviscid case of Stangeby, recovered with by $\alpha=0$, reduces to 
+$S_\Gamma=MS_N$, representing the change in momentum of the flow in the 
+flux tube due to the entrance of ions with an unperturbed velocity of 
+$M_\infty$. 
+
+However, it should be pointed out that in the case of an uncentered probe, 
+the density difference may not be only due to the probe wake. 
+Indeed, if we modelize the perpendicular transport by a constant 
+diffusion of coefficient $D_\perp$, the presheath equilibrium is 
+reached when :
+\begin{equation}
+\nabla_\parallel \Gamma=D_\perp\nabla_\perp^2 N
+\end{equation}
+resulting in an radial profile exponentialy deacreasing for the 
+density, whose decay length $\lambda_\text{SOL}$ defines the size of the SOL :
+\begin{equation}
+N\left(x,z\right)=n\left(z\right)\exp\left(-\frac{x}{\lambda_\text{SOL}}\right)
+\qquad\lambda_\text{SOL}=\sqrt{\frac{D_\perp L_\parallel}{c_s}}
+\end{equation}
+With a probe separating the SOL presheath of parallel length 
+$L_\parallel$ in two smaller presheaths of different length, saying 
+$L_\parallel'$ and $L_\parallel''$, it is obvsious that the both decay 
+lengths, and thus the density profiles, on the two sides of the probes 
+will differ significantly, even when $M_\infty=0$.
+
+
+
 
 \begin{figure}
 \begin{minipage}[c]{68mm}
@@ -663,42 +749,23 @@ and four.}
 \end{minipage}
 \end{figure}
 
- \begin{figure}
-\begin{minipage}{200mm}
+\begin{figure}
+\begin{minipage}{68mm}
+\includegraphics[width=\linewidth]{figures/PartBalance_middle.pdf} \caption{3D view
+of $J_\parallel$ from the top, where the probe is located. The white/transparent
+color indicates zero current. The bottom plan shows the XY density map in strong
+SOL electrostatic turbulence.}
+\label{fig:2}
+\end{minipage}
+\hfill
+\begin{minipage}{68mm}\vspace{20pt}
+\includegraphics[width=\linewidth]{figures/PartBalance_bottom.pdf}
+\caption{Amplitude of the perturbation in front of the probe versus the ratio of the parallel 
+to the probe lengths. Circles are for parallel length of 6x10$^3$, squares and triangles
+are respectively for twice and fourth times the first $L_\parallel$. Colors show probes of the same sizes.}
+\label{fig:3}
 
-\begin{minipage}{54mm}
-
-\center\textbf{a)}\end{minipage}
-\begin{minipage}{54mm}
-\center\textbf{b)}\end{minipage}
-\begin{minipage}{52mm}
-\center\textbf{c)}\end{minipage}
 \end{minipage}
- \begin{minipage}{52mm}
-\includegraphics[width=52mm,trim = 0mm 0mm 0mm
-0mm,clip]{figures/densityMapProbe.pdf}
-\end{minipage}
- \begin{minipage}{52mm}
-\includegraphics[width=52mm,trim = 0mm 0mm 0mm
-0mm,clip]{figures/radialProfileProbe.pdf}
-\end{minipage}
- \begin{minipage}{52mm}
-\includegraphics[width=52mm,trim = 0mm 0mm 0mm
-0mm,clip]{figures/pdfProbe.pdf}
-\end{minipage}
-\begin{minipage}{200mm}
-\caption{\textbf{a)}~Probe shadow in the poloidal plane. Map of the 
-mean plasma density in comparison with the unperturbed 
-case around the probe. The probe, in white, is situated at the middle of the field 
-lines.
-\textbf{b)}~Radial profile of the mean density, standard deviations and 
-standard deviation normalized to $\left<N\right>$, rapported to the 
-unperturbed reference case. The black line denotes the contact point 
-with the probe.
-\textbf{c)}~PDFs of density for the reference case, just in front of 
-the probe and few Larmor radius inside the probe shadow.}
- \label{fig:5}
-  \end{minipage}
 \end{figure}
 
 \section{Discussion}
@@ -725,7 +792,6 @@ the probe and few Larmor radius inside the probe shadow.}
 % location. In contrast, for a small probe size of when the perpendicular
 % transport is efficient, the plasma potential will go as the unperturbed plasma
 % sheath potential $\Phi=\Lambda T$. The same work for the 3D case give , 
-
 
 \begin{acknowledgement}
 This work has been financialy supported by the French National Research
