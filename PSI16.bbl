@@ -33,10 +33,11 @@ Minimum ionic kinetic energy for a stable sheath, 1949.
 
 \othercit
 \bibitem{Chen65}% inproceedings
- \textsc{F.\,F. Chen},  \textsc{J.\,D. Evans},  and  \textsc{W.~Zawalski},
+ \textsc{F.\,F. Chen},  \textsc{J.\,D. Evans},  \textsc{W.~Zawalski},
+  \textsc{F.\,F. Chen},  \textsc{J.\,D. Evans},  and  \textsc{W.~Zawalski},
 Electric probes,
- in: In Plasma Diagnostic Techniques, edited by Huddlestone, RH and Leornard,
-  SL,  (1965).
+ in: In Plasma Diagnostic Techniques, edited by Huddlestone, R.H. and Leornard,
+  S.L,  (Academic Press, 1965).
 
 
 \bibitem{Matthews94}% article
@@ -123,14 +124,11 @@ Cambridge Books Online.
  \jr{Plasma Physics and Controlled Fusion} \textbf{32}(13), 1237 (1990).
 
 
-\bibitem{Ghendrih03}% article
- \textsc{P.~Ghendrih},  \textsc{Y.~Sarazin},  \textsc{G.~Attuel},
-  \textsc{S.~Benkadda},  \textsc{P.~Beyer},  \textsc{G.~Falchetto},
-  \textsc{C.~Figarella},  \textsc{X.~Garbet},  \textsc{V.~Grandgirard},  and
-  \textsc{M.~Ottaviani}\iffalse Theoretical analysis of the influence of
-  external biasing on long range turbulent transport in the scrape-off
-  layer\fi,
- \jr{Nucl. Fusion} \textbf{43}(10), 1013 (2003).
+\bibitem{Stangeby95-2}% article
+ \textsc{P.\,C. Stangeby}\iffalse Determination of t e from a langmuir probe in
+  a magnetic field by directly measuring the probe's sheath drop using a
+  pin-plate probe\fi,
+ \jr{Plasma Physics and Controlled Fusion} \textbf{37}(11), 1337 (1995).
 
 
 \bibitem{Zweben09}% article
@@ -140,6 +138,16 @@ Cambridge Books Online.
   Ryutov}\iffalse Local scrape-off layer control using biased electrodes in
   nstx\fi,
  \jr{Plasma Physics and Controlled Fusion} \textbf{51}(10), 105012 (2009).
+
+
+\bibitem{Ghendrih03}% article
+ \textsc{P.~Ghendrih},  \textsc{Y.~Sarazin},  \textsc{G.~Attuel},
+  \textsc{S.~Benkadda},  \textsc{P.~Beyer},  \textsc{G.~Falchetto},
+  \textsc{C.~Figarella},  \textsc{X.~Garbet},  \textsc{V.~Grandgirard},  and
+  \textsc{M.~Ottaviani}\iffalse Theoretical analysis of the influence of
+  external biasing on long range turbulent transport in the scrape-off
+  layer\fi,
+ \jr{Nucl. Fusion} \textbf{43}(10), 1013 (2003).
 
 
 \bibitem{Colin14}% article
@@ -157,9 +165,38 @@ Cambridge Books Online.
  \jr{Contributions to Plasma Physics} \textbf{56}(6-8), 575--580 (2016).
 
 
+\bibitem{Mott-Smith26}% article
+ \textsc{H.\,M. Mott-Smith} and  \textsc{I.~Langmuir}\iffalse The theory of
+  collectors in gaseous discharges\fi,
+ \jr{Phys. Rev.} \textbf{28}(Oct), 727--763 (1926).
+
+
+\bibitem{Allen57}% article
+ \textsc{B.\,R. Allen~J.E.} and  \textsc{R.~P.},
+ \jr{Proc. Phys. Soc.} \textbf{B70} (1957).
+
+
+\bibitem{Bernstein59}% article
+ \textsc{B.~I.B.} and  \textsc{R.~I.N.},
+ \jr{Phys. Fluids} \textbf{2} (1959).
+
+
+\bibitem{Laframboise66}% article
+ \textsc{J.~Laframboise},
+ \jr{Inst. Aerospace Studies Rept.} \textbf{100} (June).
+
+
 \bibitem{Chung12}% article
  \textsc{K.\,S. Chung}\iffalse Mach probes\fi,
  \jr{Plasma Sources Science and Technology} \textbf{21}(6), 063001 (2012).
+
+
+\bibitem{Paredes14}% article
+ \textsc{A.~Paredes},  \textsc{E.~Serre},  \textsc{F.~Schwander},
+  \textsc{P.~Ghendrih},  and  \textsc{P.~Tamain}\iffalse Numerical fluid
+  modelling of the plasma edge response to a 3d object and application to mach
+  probe measurements\fi,
+ \jr{Contributions to Plasma Physics} \textbf{54}(4-6), 373--377 (2014).
 
 
 \bibitem{Tamain16}% article
@@ -169,6 +206,12 @@ Cambridge Books Online.
   for edge turbulence fluid simulations of tokamak plasmas in versatile
   magnetic geometries\fi,
  \jr{Journal of Computational Physics} pp.\,-- (2016).
+
+
+\bibitem{Harbour84}% article
+ \textsc{P.~Harbour} and  \textsc{G.~Proudfoot}\iffalse Mach number deduced
+  from probe measurements in the divertor and boundary layer of dite\fi,
+ \jr{Journal of Nuclear Materials} \textbf{121}, 222 -- 228 (1984).
 
 
 \end{thebibliography}

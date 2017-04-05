@@ -8,10 +8,11 @@
 %% $Id: template.dtx,v 1.80 2005/10/04 16:26:14 uwe Exp $
 %% 2007-04-11 -MWL- aktualisiert
 %% ====================================================================
-\documentclass[cpp,a4paper,fleqn%
+\documentclass[cpp,a4paper,fleqn,twoside%
  %,finallayout% this activates the final column title entries
  %,earlyview% this adds the Early View tag on top of the final layout title page
 ]{w-art}
+
 \usepackage{times,w-thm}
 \usepackage{indentfirst}
 %\usepackage[superscript,biblabel]{cite}
@@ -19,18 +20,18 @@
 %\usepackage{caption}
 \captionsetup[table]{singlelinecheck=false}
 
-% \usepackage{w-sidecapt}
+%\usepackage{w-sidecapt}
 %% By default the equations are consecutively numbered. This may be changed by
 %% the following command.
 %% \numberwithin{equation}{section}
 %%
 %% The definition of new theorem like environments.
 %% Criterion
-\theoremstyle{plain}
-\newtheorem{criterion}{Criterion}
+%\theoremstyle{plain}
+%\newtheorem{criterion}{Criterion}
 %% Condition
-\theoremstyle{definition}
-\newtheorem{condition}[theorem]{Condition}
+%\theoremstyle{definition}
+%\newtheorem{condition}[theorem]{Condition}
 %%
 %% The usage of multiple languages is possible.
 %% \usepackage{ngerman}% or
@@ -170,11 +171,19 @@ Langmuir~\cite{Langmuir23} and after few years, he provided
 the bases of the \emph{quasineutral} plasma-sheath theory~\cite{Langmuir29,
 Tonks29}. Some decades later, Bohm describes the effect of magnetic
 field on electrical probes and suggests his famous Bohm
-criterion~\cite{Bohm49} a large body of litterature:
+criterion~\cite{Bohm49}. A large body of litterature follow then, 
+attemting to build a reliable theory on probe measuremens :
 describing ion collection physics~\cite{Stangeby84,
 Hutchinson87,Hutchinson88,Hutchinson91,Matthews89,Rozhansky99,HutchinsonPRL}, kinetic
 effects~\cite{Stangeby95, Hutchinson10} of electrons and perturbations due to
-polarization~\cite{Pitts90,Ghendrih03,Zweben09,Colin14,Futtersack16}.
+polarization~\cite{Pitts90,Stangeby95-2,Zweben09,Ghendrih03,Colin14,Futtersack16}.
+
+OML\cite{Mott-Smith26}
+
+ABR\cite{Allen57}
+
+BRL\cite{Bernstein59,Laframboise66}
+
 
 As the subject of LP measurements theory and induced perturbations of the plasma
 is substantial and complex, this paper aims only at looking the perturbations
@@ -192,10 +201,38 @@ immersion of an object into the SOL.
 Whilst the ion collection theory has been built up over a long history,
 current transport induced by a biased probe has been largely forsaken. 
 Yet, some experimental evidences published by Matthews, Pitts and
-Stangeby~\cite{Matthews89,Pitts90} show that when a probe is
-polarized negatively with respect to the wall of the device,
+Stangeby~\cite{Matthews89,Pitts90,Stangeby95-2} show with the pin-plate 
+probe that when a surface is polarized negatively with respect to the 
+wall of the device,
 
-MP~\cite{Stangeby84, Hutchinson87,Hutchinson88,Matthews89,Hutchinson91,Chung12}
+Analysis of the probe characteristics includes the
+pattern of the current short-circuiting in the ambient plasma in front  
+the probe as well as determination of the sizes of the return current 
+collecting zone on the divertor plates. Such an analysis depends 
+crucially on the type of effective conductivity perpendicular to the 
+magnetic field.
+
+If the saturation currents drawn by the probe are directly dependents 
+of the probe surface increased by the sheath expansion. The shape of 
+the IV carac is fundamentaly linked to the surface of the return 
+current. If no transverse transport, the flux tube extends up to the 
+first solid object and the return sheath
+collection area will be of approximately the same area as the probe 
+collection area. If perp transport, some of the current will return 
+around the probe 
+
+the probe circuit has to be completed through some sheath 
+bounding the plasma. If the collection area of the return sheath is 
+larger than the probe one, the probe theory is a good approximation
+
+
+Mach Probes~\cite{Stangeby84, Hutchinson87,Hutchinson88,Matthews89, 
+Hutchinson91,Chung12} non local perturbation Paredes~\cite{Paredes14}
+
+While all the previous studies and theories assumes an ad-hoc anomalous 
+perpendicular transport, we intend here to 
+look at the ion collection problem in a typical SOL turbulence context.
+
 
 This paper is organized as follows. In section 2 we present the
 TOKAM3X code~\cite{Tamain16} and the modelling of the
@@ -393,8 +430,11 @@ Langmuir probe in ion saturation mode impacts the surrounding plasma and could g
 measurements leading to an underestimation of the plasma quantities. 
 An illustration of the perturbation is given in Fig.~\ref{fig:2} :
  the parallel current drawn by the probe is maximum at the front of the probe, decreasing 
-along and spreading across the magnetic field lines. Following 
-the Ohms law Eq.~\eqref{eq_Ohms_law}, this current has to come from a parallel gradient 
+along and spreading across the magnetic field lines. We can also 
+observe close to the probe the area of the return current which extends 
+non-symetricaly along the radial direction on approximately one probe 
+size $L_p$. Following 
+the Ohms law Eq.~\eqref{eq_Ohms_law}, the parallel current has to come from a parallel gradient 
 of potential and thus requires that the plasma in front of the probe stays at a different 
 potential than the one of the unperturbed plasma. The perpendicular
 electric field which rises then gives birth to an ExB vortex around all the flux tube,
@@ -502,7 +542,8 @@ of the perpendicular current, and there is a maximum of the amplitude
 of the perturbation at a specific $L_\parallel$, which can be seen on 
 Fig.~\ref{fig:3} for the $L_\text{p}$=8 probe size.
 
-Another way to look at $\Psi$ is considering it as an adaptaion to the 
+Another way to look at $\Psi$, remember of 
+Stangeby~\cite{Stangeby95-2}, is considering it as an adaptation to the 
 probe voltage : indeed, rewriting the definition of $\Psi$ as 
 $\Phi_\text{p}=\Lambda-\Psi=\Lambda-\alpha V_\text{p}$ let us define 
 $\alpha=\Psi/V_\text{p}$, an accomodation factor of the plasma potential to the probe 
@@ -566,8 +607,12 @@ the parallel electric field.
 In the case of ITER, where the plasma will be hot and highly 
 conductive, we can expect a strong connection of the perturbation 
 between the two sides of the divertor. The flushed mounted probes 
-should then act like double probes, the current being limited by the sheath of the 
-opposite wall.
+should then act like double probes, the current being limited by the 
+sheath of the opposite wall.
+
+These results should nethertheless be significantly impacted by the 
+plasma-neutrals interactions short-circuiting transverse 
+transport of current and by the shear of the magnetic field impacing the shape of the probe flux tube.
 
 \section{Reciprocating probe body and synthetic Mach measurements}
 
@@ -620,7 +665,7 @@ the probe and few Larmor radius inside the probe shadow.}
 
 The first principal effect of the insertion into the SOL of a solid 
 object is the creation of its own secondary pre-sheaths, the object's 
-shadow~\cite{secondary presheath}. Indeed, as the length of the field 
+shadow~\cite{Hutchinson91}. Indeed, as the length of the field 
 lines is divided by two and the loss surface for the plasma doubles, it will 
 exist, on the both side of the probe, two areas of reduced density, 
 where the radial decay length is strongly shortened. 
@@ -671,22 +716,23 @@ V_\perp\right)
 \\
 \nabla_\parallel\left(\Gamma^2/N\right)+2\nabla_\parallel N= 
 -\nabla_\perp\cdot\left(\Gamma\mathbf 
-V_\perp\right)+\eta_H\nabla_\perp^2\Gamma/N
+V_\perp\right)+\eta_H\nabla_\perp^2 M
 \end{gather}
 
 with the symbols defined according to 
 \eqref{eq_particle_balance}-\eqref{eq_charge_balance}, $\mathbf V_\perp$ 
-being the normalized perpendicular velocity and $\eta_H$, the shear 
-viscosity introduced by Hutchinson, the term differencing his model 
-to the one of Stangeby. 
+being the normalized perpendicular velocity, $M=\Gamma/N$ the parallel 
+velocity normalized by the Bohm velocity, \emph{i.e.} the Mach number and 
+$\eta_H$, the shear viscosity, introduced by Hutchinson, which is the term 
+differencing fundamentaly his model from the one of Stangeby. 
 
-The essence of these one-dimentional approximation is to consider the 
+The essence of this one-dimentional approximation is to consider the 
 perpendicular divergence of fluxes as sources of matter and momentum :
 \begin{gather}
 S_N=-\nabla_\perp\cdot\left(N\mathbf V_\perp\right)
 \\
 S_\Gamma=-\nabla_\perp\cdot\left(\Gamma\mathbf 
-V_\perp\right)+\eta_H\nabla_\perp^2\Gamma/N
+V_\perp\right)-M\nabla_\parallel \left(NM\right)+\eta_H\nabla_\perp^2\Gamma/N
 \end{gather}
 
 For the particle source, Stangeby use either $S_N=\text{cste.}$ or 
@@ -694,8 +740,7 @@ $S_N\propto N$ while Hutchinson prefers to use a source deriving from a
 diffusive particle flux $S_N=D_\perp\left(N_\infty-N\right)/a^2$, with a 
 unperturbed plasma density $N_\infty$ and $a$ the characteric perpendicular 
 length of the probe. 
-About the momentum source, that Hutchinson resumes 
-as~\cite{Hutchinson02}:
+About the momentum source, that Hutchinson resumes as~\cite{Hutchinson02}:
 \begin{gather}
 S_\Gamma=\frac{D_\perp}{a^2c_s}\left(M_\infty-M\right)\left(N_\infty-N\left(1-
 \alpha\right)\right)\qquad \text{with}\qquad\alpha=\eta_H/N D_\perp
@@ -704,12 +749,60 @@ S_\Gamma=\frac{D_\perp}{a^2c_s}\left(M_\infty-M\right)\left(N_\infty\left(1+\alp
 \right)\qquad \text{with}\qquad\alpha=\eta_H/ N_\infty D_\perp
 \end{gather}
 
-the inviscid case of Stangeby, recovered with by $\alpha=0$, reduces to 
-$S_\Gamma=MS_N$, representing the change in momentum of the flow in the 
-flux tube due to the entrance of ions with an unperturbed velocity of 
-$M_\infty$. 
+the inviscid case of Stangeby is recovered with by $\alpha=0$ and 
+$S_\Gamma$ reduces to 
+$S_N\left(M_\infty-M \right)$, representing the change in 
+momentum of the flow in the flux tube due to the entrance of ions with 
+the unperturbed velocity $M_\infty$. These two approaches give 
+for Stangeby and Hutchinson respectively the following ratio of 
+upstream to downstream fluxes : $R=(2+M_\infty)/(2-M_\infty)$ and 
+$R=\exp\left(M_\infty/M_c\right)$, the value of the calibration factor 
+$M_c$, resulting from a fit of models results, being 
+situated between 0.41 (1D model) and 0.45 (2D). Hutchinson also remarks 
+that in their experiment, Harbour and Proudfoot~\cite{Harbour84} fit this 
+ratio with $M_c$ = 0.6, which could correspond to an $\alpha$ = 0.1 situation.
 
-However, it should be pointed out that in the case of an uncentered probe, 
+\begin{figure}
+\begin{minipage}[c]{68mm}
+\includegraphics[width=68mm]{figures/hutchMachRadialProf.pdf}
+\end{minipage}
+\begin{minipage}[c]{\textwidth-68mm}
+\caption{Synthetic measurement of flow Mach number following both 
+formulas of Stangeby (dotted lines) and Hutchinson (dashed lines) and 
+for three test cases : Black lines for the probe situated in the middle of the 
+computational domain at $Z=L_\parallel/2$ with zero imposed parallel 
+flow. Red Lines for a probe 
+positioned at $Z=L_\parallel/4$ also without external parallel flow. 
+Blue lines for the probe situated at $Z=L_\parallel/2$ but with an 
+$M$ = 0.4 imposed external flow velocity.}
+\label{fig:6}
+\end{minipage}
+\end{figure}
+
+We reproduce these two measurements in figure~\ref{fig:6} for 
+three different cases. The first one, where the probe is situated at 
+the middle of the domain and without any parallel flow, measure the 
+same density on each side of the probe (as the geometry is symmetric) 
+and thus a correct parallel flow of $M_\infty$ = 0 for the both models.
+In the second case, where the probe is situated at the bottom of the 
+computation area, we can see that the measured Mach number, for the two 
+models, varies between 0 and -1.5 along the radial direction. The both 
+measurements give nethertheless the right value of $M_\infty\approx$ 0.4 
+at a radial distance from the probe tip of respectively 6 (Stangeby) 
+and 15 (Hutchinson with $M_c$ = 0.45).
+In the third case, the probe is back to the center of the field lines, 
+but we impose an external flow Mach number $M_\infty$ = 0.4 at the probe 
+tip. Again, both measurements depends on the radial positition, but as 
+the formula given by Stangeby give the right value at $X-X_p$ = 8, the 
+model of Hutchinson underestimate everywhere the flux velocity.
+At least, the both methods depend on the positioning of the probes on 
+the probe body. If Stangeby's seems more accurate in our model of 
+turbulent perpendicular transport, Hutchinson measurement can be calibrated 
+with $M_c$. It is then worth to say that $M_c$ should be 
+specific of a probe design and that none value could be 
+used universaly.
+
+Finaly, it should be pointed out that in the case of an uncentered probe, 
 the density difference may not be only due to the probe wake. 
 Indeed, if we modelize the perpendicular transport by a constant 
 diffusion of coefficient $D_\perp$, the presheath equilibrium is 
@@ -720,55 +813,43 @@ reached when :
 resulting in an radial profile exponentialy deacreasing for the 
 density, whose decay length $\lambda_\text{SOL}$ defines the size of the SOL :
 \begin{equation}
-N\left(x,z\right)=n\left(z\right)\exp\left(-\frac{x}{\lambda_\text{SOL}}\right)
-\qquad\lambda_\text{SOL}=\sqrt{\frac{D_\perp L_\parallel}{c_s}}
+\lambda_\text{SOL}=\sqrt{\frac{D_\perp L_\parallel}{c_s}}
 \end{equation}
 With a probe separating the SOL presheath of parallel length 
 $L_\parallel$ in two smaller presheaths of different length, saying 
 $L_\parallel'$ and $L_\parallel''$, it is obvsious that the both decay 
-lengths, and thus the density profiles, on the two sides of the probes 
+lengths, and thus the density profiles on the two sides of the probes 
 will differ significantly, even when $M_\infty=0$.
-
-
-
-
-\begin{figure}
-\begin{minipage}[c]{68mm}
-\includegraphics[width=68mm]{figures/hutchMachRadialProf.pdf}
-\end{minipage}
-\begin{minipage}[c]{\textwidth-68mm}
-\caption{Standard deviations of density fluctuations in front of the 
-probe (filled symbols) in comparison with the reference case (empty 
-symbols) as a function of the 
-potential difference between the walls. In blue on the left (small 
-electric field), are the "conductive" cases with a low $\eta$. On the 
-right (high electric field) are the "resistive" cases. Circles, squares 
-and triangle are respectively for the base parallel length, times two 
-and four.}
-\label{fig:4}
-\end{minipage}
-\end{figure}
 
 \begin{figure}
 \begin{minipage}{68mm}
-\includegraphics[width=\linewidth]{figures/PartBalance_middle.pdf} \caption{3D view
-of $J_\parallel$ from the top, where the probe is located. The white/transparent
-color indicates zero current. The bottom plan shows the XY density map in strong
-SOL electrostatic turbulence.}
-\label{fig:2}
+\includegraphics[width=\linewidth]{figures/PartBalance_middle.pdf} 
+\caption{caption1}
+\label{fig:7}
 \end{minipage}
 \hfill
 \begin{minipage}{68mm}\vspace{20pt}
 \includegraphics[width=\linewidth]{figures/PartBalance_bottom.pdf}
-\caption{Amplitude of the perturbation in front of the probe versus the ratio of the parallel 
-to the probe lengths. Circles are for parallel length of 6x10$^3$, squares and triangles
-are respectively for twice and fourth times the first $L_\parallel$. Colors show probes of the same sizes.}
-\label{fig:3}
+\caption{caption2}
+\label{fig:8}
+
 
 \end{minipage}
 \end{figure}
+\begin{figure}
+\begin{minipage}{68mm}
+\includegraphics[width=\linewidth]{figures/MomentumBalance_middle.pdf} 
+\caption{caption3}
+\label{fig:9}
+\end{minipage}
+\hfill
+\begin{minipage}{68mm}\vspace{20pt}
+\includegraphics[width=\linewidth]{figures/MomentumBalance_bottom.pdf}
+\caption{caption4}
+\label{fig:10}
 
-\section{Discussion}
+\end{minipage}
+\end{figure}
 
 \section{Conclusion}
 % When the probe draws a current, some part has to come from the perpendicular
@@ -800,7 +881,7 @@ the framework of the EUROfusion Consortium with a funding from the
 Euratom research and training programme 2014-2018 in the frame of project
 WP14-ER-01/CEA-09. The views and opinions expressed herein do not necessarily
 reflect those of the European Commission. This work was granted access to the
-HPC resources of Aix-Marseille Université financed by the project Equip@Meso
+HPC resources of Aix-Marseille Universit\'e financed by the project Equip@Meso
 (ANR-10-EQPX-29-01) of the programme "Investissements d'Avenir" supervised by
 the Agence Nationale pour la Recherche. It also used HPC resources from
 GENCI-IDRIS in the frame of project i2015056912.

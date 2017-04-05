@@ -1,52 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PSI16.aux
-White space in argument---line 58 of file PSI16.aux
- : \citation{secondary
- :                     presheath}
-I'm skipping whatever remains of this command
 The style file: cpp.bst
 Database file #1: biblio.bib.bib
-Warning--empty <publisher> in @inproceedings{Chen65}
-You've used 24 entries,
+Warning--empty <title> in @article{Allen57}
+Warning--empty <title> in @article{Bernstein59}
+Warning--empty <title> in @article{Laframboise66}
+You've used 31 entries,
             2691 wiz_defined-function locations,
-            786 strings with 9013 characters,
-and the built_in function-call counts, 9862 in all, are:
-= -- 1031
-> -- 383
+            826 strings with 9955 characters,
+and the built_in function-call counts, 12525 in all, are:
+= -- 1313
+> -- 487
 < -- 0
-+ -- 167
-- -- 134
-* -- 1006
-:= -- 1465
-add.period$ -- 24
-call.type$ -- 24
-change.case$ -- 138
++ -- 211
+- -- 170
+* -- 1286
+:= -- 1861
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 174
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 497
-empty$ -- 829
-format.name$ -- 134
-if$ -- 2084
+cite$ -- 34
+duplicate$ -- 629
+empty$ -- 1046
+format.name$ -- 170
+if$ -- 2641
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 25
-newline$ -- 136
-num.names$ -- 48
-pop$ -- 173
+int.to.str$ -- 31
+missing$ -- 32
+newline$ -- 171
+num.names$ -- 62
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 147
 quote$ -- 0
-skip$ -- 130
+skip$ -- 169
 stack$ -- 0
-substring$ -- 502
-swap$ -- 341
+substring$ -- 627
+swap$ -- 441
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
-warning$ -- 1
-while$ -- 75
-width$ -- 26
-write$ -- 207
-(There was 1 error message)
+type$ -- 154
+warning$ -- 3
+while$ -- 95
+width$ -- 33
+write$ -- 261
+(There were 3 warnings)

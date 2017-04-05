@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.17)  22 MAR 2017 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.17)  5 APR 2017 09:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -210,8 +210,6 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-\c@criterion=\count110
-
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -271,13 +269,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
 
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count112
 
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -290,14 +288,14 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count113
  (/home/futtersack/workspace/latex/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen132
-\Fld@menulength=\count115
+\Fld@menulength=\count114
 \Field@Width=\dimen133
 \Fld@charsize=\dimen134
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -309,17 +307,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
+\Fld@listcount=\count118
+\c@bookmark@seq@number=\count119
 
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/oberdiek/rerunfilecheck.
 sty
@@ -380,65 +378,56 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen144
 \cmidrulekern=\dimen145
 \defaultaddspace=\dimen146
-\@cmidla=\count121
-\@cmidlb=\count122
+\@cmidla=\count120
+\@cmidlb=\count121
 \@aboverulesep=\dimen147
 \@belowrulesep=\dimen148
-\@thisruleclass=\count123
-\@lastruleclass=\count124
+\@thisruleclass=\count122
+\@lastruleclass=\count123
 \@thisrulewidth=\dimen149
 )
 (./wrapfig.sty
 \wrapoverhang=\dimen150
 \WF@size=\dimen151
-\c@WF@wrappedlines=\count125
+\c@WF@wrappedlines=\count124
 \WF@box=\box29
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
-) (./PSI16.aux
-
-LaTeX Warning: Label `fig:4' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-)
+) (./PSI16.aux)
 \openout1 = `PSI16.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 54.
- (/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 55.
+
+(/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/home/futtersack/workspace/latex/texmf-dist/tex/context/base/mkii/supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count125
 \scratchdimen=\dimen152
 \scratchbox=\box30
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count129
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen153
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks28
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -446,7 +435,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Can't find sidecap.sty -- will use normal caption
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 55.
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -454,185 +443,185 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 g.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (./PSI16.out) (./PSI16.out)
 \@outlinefile=\write3
 \openout3 = `PSI16.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 146.
 
 
 (/home/futtersack/workspace/latex/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
 
+Overfull \vbox (2.47955pt too high) has occurred while \output is active []
 
-LaTeX Warning: Citation `Hutchinson88' on page 1 undefined on input line 175.
-
-
-LaTeX Warning: Citation `Hutchinson88' on page 1 undefined on input line 198.
-
-
-LaTeX Warning: Citation `Chung12' on page 1 undefined on input line 198.
 
 [1{/home/futtersack/workspace/latex/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}
 
-]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] <figures/geometry.pdf, id=119, 845.0471pt x 597.51233pt>
+] [2] <figures/geometry.pdf, id=127, 845.0471pt x 597.51233pt>
 File: figures/geometry.pdf Graphic file (type pdf)
 
 <use figures/geometry.pdf>
-Package pdftex.def Info: figures/geometry.pdf used on input line 342.
+Package pdftex.def Info: figures/geometry.pdf used on input line 379.
 (pdftex.def)             Requested size: 224.70181pt x 158.87793pt.
  [3 <./figures/geometry.pdf>]
-<figures/3Dcurrent.pdf, id=141, 313.17pt x 290.08376pt>
+<figures/3Dcurrent.pdf, id=143, 313.17pt x 290.08376pt>
 File: figures/3Dcurrent.pdf Graphic file (type pdf)
 
 <use figures/3Dcurrent.pdf>
-Package pdftex.def Info: figures/3Dcurrent.pdf used on input line 410.
+Package pdftex.def Info: figures/3Dcurrent.pdf used on input line 450.
 (pdftex.def)             Requested size: 193.47873pt x 179.22153pt.
 
-<figures/perturbAmplLp.pdf, id=142, 325.215pt x 260.17201pt>
+<figures/perturbAmplLp.pdf, id=144, 325.215pt x 260.17201pt>
 File: figures/perturbAmplLp.pdf Graphic file (type pdf)
 
 <use figures/perturbAmplLp.pdf>
-Package pdftex.def Info: figures/perturbAmplLp.pdf used on input line 418.
+Package pdftex.def Info: figures/perturbAmplLp.pdf used on input line 458.
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
  [4 <./figures/3Dcurrent.pdf> <./figures/perturbAmplLp.pdf>] <figures/perturbAm
-plEta.pdf, id=217, 325.215pt x 260.17201pt>
+plEta.pdf, id=221, 325.215pt x 260.17201pt>
 File: figures/perturbAmplEta.pdf Graphic file (type pdf)
 
 <use figures/perturbAmplEta.pdf>
-Package pdftex.def Info: figures/perturbAmplEta.pdf used on input line 524.
+Package pdftex.def Info: figures/perturbAmplEta.pdf used on input line 565.
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 523--537
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 564--578
 []$[]$ $[]$ 
  []
 
-[5 <./figures/perturbAmplEta.pdf>]
-<figures/densityMapProbe.pdf, id=283, 325.215pt x 260.17201pt>
+[5]
+Overfull \hbox (1.77077pt too wide) in paragraph at lines 613--616
+[]\OT1/ptm/m/n/10 These re-sults should netherthe-less be sig-nif-i-cantly im-p
+acted by the plasma-neutrals in-ter-ac-tions short-circuiting
+ []
+
+<figures/densityMapProbe.pdf, id=237, 325.215pt x 260.17201pt>
 File: figures/densityMapProbe.pdf Graphic file (type pdf)
 
 <use figures/densityMapProbe.pdf>
-Package pdftex.def Info: figures/densityMapProbe.pdf used on input line 595.
+Package pdftex.def Info: figures/densityMapProbe.pdf used on input line 640.
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-<figures/radialProfileProbe.pdf, id=285, 325.215pt x 260.17201pt>
+<figures/radialProfileProbe.pdf, id=239, 325.215pt x 260.17201pt>
 File: figures/radialProfileProbe.pdf Graphic file (type pdf)
 
 <use figures/radialProfileProbe.pdf>
-Package pdftex.def Info: figures/radialProfileProbe.pdf used on input line 599.
+Package pdftex.def Info: figures/radialProfileProbe.pdf used on input line 644.
 
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-<figures/pdfProbe.pdf, id=287, 325.215pt x 260.17201pt>
+<figures/pdfProbe.pdf, id=241, 325.215pt x 260.17201pt>
 File: figures/pdfProbe.pdf Graphic file (type pdf)
 
 <use figures/pdfProbe.pdf>
-Package pdftex.def Info: figures/pdfProbe.pdf used on input line 603.
+Package pdftex.def Info: figures/pdfProbe.pdf used on input line 648.
 (pdftex.def)             Requested size: 147.95433pt x 118.36653pt.
 
-Overfull \hbox (119.65149pt too wide) in paragraph at lines 583--618
+Overfull \hbox (119.65149pt too wide) in paragraph at lines 628--663
 []$[]$
  []
 
-
-LaTeX Warning: Citation `secondary presheath' on page 6 undefined on input line
- 623.
-
-[6 <./figures/densityMapProbe.pdf> <./figures/radialProfileProbe.pdf> <./figure
-s/pdfProbe.pdf>]
-
-LaTeX Warning: Citation `Hutchinson88' on page 7 undefined on input line 666.
-
-<figures/hutchMachRadialProf.pdf, id=442, 325.215pt x 260.17201pt>
+[6 <./figures/perturbAmplEta.pdf>] [7 <./figures/densityMapProbe.pdf> <./figure
+s/radialProfileProbe.pdf> <./figures/pdfProbe.pdf>]
+<figures/hutchMachRadialProf.pdf, id=460, 325.215pt x 260.17201pt>
 File: figures/hutchMachRadialProf.pdf Graphic file (type pdf)
 
 <use figures/hutchMachRadialProf.pdf>
-Package pdftex.def Info: figures/hutchMachRadialProf.pdf used on input line 737
+Package pdftex.def Info: figures/hutchMachRadialProf.pdf used on input line 767
 .
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 736--750
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 766--780
 []$[]$ $[]$ 
  []
 
-<figures/PartBalance_middle.pdf, id=443, 325.215pt x 260.17201pt>
+<figures/PartBalance_middle.pdf, id=462, 325.215pt x 260.17201pt>
 File: figures/PartBalance_middle.pdf Graphic file (type pdf)
 
 <use figures/PartBalance_middle.pdf>
-Package pdftex.def Info: figures/PartBalance_middle.pdf used on input line 754.
+Package pdftex.def Info: figures/PartBalance_middle.pdf used on input line 826.
 
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
 
-<figures/PartBalance_bottom.pdf, id=444, 325.215pt x 260.17201pt>
+<figures/PartBalance_bottom.pdf, id=463, 325.215pt x 260.17201pt>
 File: figures/PartBalance_bottom.pdf Graphic file (type pdf)
 
 <use figures/PartBalance_bottom.pdf>
-Package pdftex.def Info: figures/PartBalance_bottom.pdf used on input line 762.
+Package pdftex.def Info: figures/PartBalance_bottom.pdf used on input line 832.
 
 (pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
-Missing character: There is no Ž in font ptmr7t!
- [7] (./PSI16.bbl [8 <./figures/hutchMachRadialProf.pdf> <./figures/PartBalance
-_middle.pdf
 
-pdfTeX warning: pdflatex (file ./figures/PartBalance_middle.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./figures/PartBalance_bottom.pdf
+<figures/MomentumBalance_middle.pdf, id=464, 325.215pt x 260.17201pt>
+File: figures/MomentumBalance_middle.pdf Graphic file (type pdf)
+
+<use figures/MomentumBalance_middle.pdf>
+Package pdftex.def Info: figures/MomentumBalance_middle.pdf used on input line 
+841.
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+
+<figures/MomentumBalance_bottom.pdf, id=465, 325.215pt x 260.17201pt>
+File: figures/MomentumBalance_bottom.pdf Graphic file (type pdf)
+
+<use figures/MomentumBalance_bottom.pdf>
+Package pdftex.def Info: figures/MomentumBalance_bottom.pdf used on input line 
+847.
+(pdftex.def)             Requested size: 193.47873pt x 154.78639pt.
+ [8 <./figures/hutchMachRadialProf.pdf>] (./PSI16.bbl [9 <./figures/PartBalance
+_middle.pdf> <./figures/PartBalance_bottom.pdf
 
 pdfTeX warning: pdflatex (file ./figures/PartBalance_bottom.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
+> <./figures/MomentumBalance_middle.pdf
+
+pdfTeX warning: pdflatex (file ./figures/MomentumBalance_middle.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/MomentumBalance_bottom.pdf
+
+pdfTeX warning: pdflatex (file ./figures/MomentumBalance_bottom.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
 >])
 
 Class w-art Warning: copyrightyear 2008 in copyrightinfo differs from currentye
-ar 2016 in Year of issueinfo on input line 830.
+ar 2016 in Year of issueinfo on input line 911.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 20.
+Package caption Warning: Unused \captionsetup[table] on input line 21.
 See the caption package documentation for explanation.
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 830.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 830.
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 911.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 911.
  (./PSI16.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 830.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 830.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 911.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 911.
 Package rerunfilecheck Info: File `PSI16.out' has not changed.
-(rerunfilecheck)             Checksum: 5CDD4E668CBB5EDABBD12FC10F618622;768.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 830.
+(rerunfilecheck)             Checksum: EBD4D2F9527F3A7D3C478980093BF5B5;722.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 911.
  ) 
 Here is how much of TeX's memory you used:
- 7649 strings out of 494875
- 113544 string characters out of 6178853
- 208126 words of memory out of 5000000
- 10763 multiletter control sequences out of 15000+600000
+ 7671 strings out of 494875
+ 114059 string characters out of 6178853
+ 205918 words of memory out of 5000000
+ 10774 multiletter control sequences out of 15000+600000
  28754 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,12n,40p,733b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,40p,733b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/futtersack/workspace/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}</ho
 me/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
 pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -645,20 +634,21 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/futtersack/workspace/lat
 ex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/futtersack/workspa
 ce/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/futtersack/w
 orkspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/futter
-sack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></hom
-e/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on PSI16.pdf (9 pages, 647273 bytes).
+sack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/
+futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></home/futtersack/workspace/latex/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb></home/futtersack/workspace/latex/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></home/futtersack/workspace/latex/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></home/futtersack/workspace/latex/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on PSI16.pdf (10 pages, 687591 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 75 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 854 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
